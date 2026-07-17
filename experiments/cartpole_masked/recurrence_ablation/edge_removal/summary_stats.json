@@ -1,0 +1,20 @@
+{
+  "experiment": "recurrence_ablation",
+  "task": "cartpole_masked",
+  "recurrence_mode": "edge_removal",
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_run": true
+  },
+  "config": {
+    "min_stratum": "weak",
+    "rollouts": 20,
+    "n_sources": 5000
+  },
+  "n_valid": 5000,
+  "competent_count": 207,
+  "competent_rate": 0.0414,
+  "solved_count": 0,
+  "elapsed_sec": 52.43824625015259
+}

@@ -1,0 +1,78 @@
+{
+  "experiment": "pool",
+  "task": "frozenlake_shaped",
+  "env_name": "FrozenLake-v1",
+  "input_dim": 16,
+  "output_dim": 4,
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_pool": true
+  },
+  "target_valid_total": 500,
+  "target_valid_this_shard": 500,
+  "start_seed": 11000001,
+  "attempts": 2170,
+  "valid_count": 500,
+  "invalid_count": 1670,
+  "validity_rate": 0.2304147465437788,
+  "stratum_counts": {
+    "weak": 441,
+    "low_mid": 12,
+    "high_mid": 46,
+    "near_perfect": 1,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -4.0
+    ],
+    "low_mid": [
+      -4.0,
+      -3.0
+    ],
+    "high_mid": [
+      -3.0,
+      -2.0
+    ],
+    "near_perfect": [
+      -2.0,
+      -0.5
+    ],
+    "perfect": [
+      -0.5,
+      Infinity
+    ]
+  },
+  "strata_provisional": true,
+  "nonweak_count": 59,
+  "competent_fraction": 0.118,
+  "gate_frac": 0.01,
+  "gate_pass": true,
+  "reward_summary": {
+    "mean": -5.632,
+    "std": 0.9255139112946926,
+    "median": -6.0,
+    "min": -6.0,
+    "max": -2.0,
+    "percentiles": {
+      "1": -6.0,
+      "5": -6.0,
+      "10": -6.0,
+      "25": -6.0,
+      "50": -6.0,
+      "75": -6.0,
+      "90": -4.0,
+      "95": -3.0,
+      "99": -3.0
+    }
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  },
+  "timestamp": "2026-06-01 11:47:50"
+}

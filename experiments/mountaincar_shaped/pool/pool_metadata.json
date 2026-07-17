@@ -1,0 +1,67 @@
+{
+  "experiment": "E1_pool",
+  "task": "mountaincar_shaped",
+  "env_name": "MountainCar-v0",
+  "input_dim": 2,
+  "output_dim": 3,
+  "merged_from_shards": 23,
+  "valid_count": 5014,
+  "stratum_counts": {
+    "weak": 4532,
+    "low_mid": 369,
+    "high_mid": 35,
+    "near_perfect": 14,
+    "perfect": 64
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -200.0
+    ],
+    "low_mid": [
+      -200.0,
+      -160.0
+    ],
+    "high_mid": [
+      -160.0,
+      -100.0
+    ],
+    "near_perfect": [
+      -100.0,
+      -50.0
+    ],
+    "perfect": [
+      -50.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": false,
+  "nonweak_count": 482,
+  "competent_fraction": 0.09613083366573594,
+  "gate_frac": 0.01,
+  "gate_pass": true,
+  "reward_summary": {
+    "mean": -221.62681727103418,
+    "std": 29.293960146793808,
+    "median": -230.96859253942966,
+    "min": -270.1380433142185,
+    "max": -11.073308652639389,
+    "percentiles": {
+      "1": -266.08589824140074,
+      "5": -236.78779298067093,
+      "10": -235.55687782168388,
+      "25": -233.50296311080456,
+      "50": -230.96859253942966,
+      "75": -226.56664572656155,
+      "90": -200.6252951771021,
+      "95": -178.45973862707615,
+      "99": -35.50569033849243
+    }
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  }
+}

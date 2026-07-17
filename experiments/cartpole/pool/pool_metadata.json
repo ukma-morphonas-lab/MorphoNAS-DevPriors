@@ -1,0 +1,78 @@
+{
+  "experiment": "pool",
+  "task": "cartpole",
+  "env_name": "CartPole-v1",
+  "input_dim": 4,
+  "output_dim": 2,
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_pool": true
+  },
+  "target_valid_total": 5000,
+  "target_valid_this_shard": 5000,
+  "start_seed": 7000001,
+  "attempts": 19484,
+  "valid_count": 5000,
+  "invalid_count": 14484,
+  "validity_rate": 0.2566208170806816,
+  "stratum_counts": {
+    "weak": 4763,
+    "low_mid": 105,
+    "high_mid": 25,
+    "near_perfect": 21,
+    "perfect": 86
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      200.0
+    ],
+    "low_mid": [
+      200.0,
+      300.0
+    ],
+    "high_mid": [
+      300.0,
+      400.0
+    ],
+    "near_perfect": [
+      400.0,
+      475.0
+    ],
+    "perfect": [
+      475.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": false,
+  "nonweak_count": 237,
+  "competent_fraction": 0.0474,
+  "gate_frac": 0.01,
+  "gate_pass": true,
+  "reward_summary": {
+    "mean": 36.66646,
+    "std": 83.04982982564383,
+    "median": 9.4,
+    "min": 8.5,
+    "max": 500.0,
+    "percentiles": {
+      "1": 8.7,
+      "5": 8.95,
+      "10": 9.1,
+      "25": 9.25,
+      "50": 9.4,
+      "75": 10.7,
+      "90": 74.54000000000033,
+      "95": 198.35500000000002,
+      "99": 500.0
+    }
+  },
+  "genome_params": {
+    "size_x": 10,
+    "size_y": 10,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  },
+  "timestamp": "2026-06-01 10:04:19"
+}

@@ -1,0 +1,33 @@
+{
+  "experiment": "E1b_weight_ablation",
+  "task": "acrobot",
+  "cell": "mn_regrow__mn_keep",
+  "topology": "mn_regrow",
+  "weight_mode": "mn_keep",
+  "shard": {
+    "index": 0,
+    "num_shards": 24,
+    "is_full_run": false
+  },
+  "config": {
+    "min_stratum": "low_mid",
+    "num_random": 5,
+    "rollouts": 20,
+    "base_seed": 6300000,
+    "n_sources": 22
+  },
+  "n_graphs": 22,
+  "n_valid": 22,
+  "competent_count": 19,
+  "competent_rate": 0.8636363636363636,
+  "solved_count": 1,
+  "solved_rate": 0.045454545454545456,
+  "strata": {
+    "weak": 3,
+    "low_mid": 3,
+    "high_mid": 4,
+    "near_perfect": 11,
+    "perfect": 1
+  },
+  "elapsed_sec": 21.14108180999756
+}

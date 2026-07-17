@@ -1,0 +1,34 @@
+{
+  "task": "cartpole",
+  "n": 5000,
+  "baseline_competent": 237,
+  "baseline_rate": 0.0474,
+  "comparisons": {
+    "edge_removal": {
+      "mode_competent": 27,
+      "mode_rate": 0.0054,
+      "both_competent": 9,
+      "baseline_only": 228,
+      "mode_only": 18,
+      "neither": 4745,
+      "mcnemar_exact_p": 1.7248676975987693e-47,
+      "n_paired": 5000,
+      "reward_changed_nets": 2370,
+      "mean_abs_reward_delta": 28.71945,
+      "max_abs_reward_delta": 491.15
+    },
+    "random_edge_removal": {
+      "mode_competent": 103,
+      "mode_rate": 0.0206,
+      "both_competent": 25,
+      "baseline_only": 212,
+      "mode_only": 78,
+      "neither": 4685,
+      "mcnemar_exact_p": 1.7748670214074585e-15,
+      "n_paired": 5000,
+      "reward_changed_nets": 2410,
+      "mean_abs_reward_delta": 31.62101,
+      "max_abs_reward_delta": 491.1
+    }
+  }
+}

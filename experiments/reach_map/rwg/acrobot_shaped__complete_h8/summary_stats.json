@@ -1,0 +1,98 @@
+{
+  "experiment": "E3_rwg_axis",
+  "task": "acrobot_shaped",
+  "env_name": "Acrobot-v1",
+  "reference_arch": {
+    "topology": "complete",
+    "hidden": 8,
+    "K": 17,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "num_samples": 5000,
+  "n_valid": 5000,
+  "rollouts": 20,
+  "eval_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "base_seed": 20000000,
+  "strata": {
+    "weak": 5000,
+    "low_mid": 0,
+    "high_mid": 0,
+    "near_perfect": 0,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -400.0
+    ],
+    "low_mid": [
+      -400.0,
+      -250.0
+    ],
+    "high_mid": [
+      -250.0,
+      0.0
+    ],
+    "near_perfect": [
+      0.0,
+      130.0
+    ],
+    "perfect": [
+      130.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": false,
+  "nonweak_count": 0,
+  "nonweak_rate": 0.0,
+  "nonweak_ci": [
+    5.421010862427522e-20,
+    0.0007677019450571243
+  ],
+  "solved_count": 0,
+  "solved_rate": 0.0,
+  "r_axis_inv_nonweak": Infinity,
+  "reward_summary": {
+    "mean": -498.1536444182284,
+    "std": 1.30466183417574,
+    "median": -497.25684868858735,
+    "min": -499.99879940045486,
+    "max": -496.40157416147593,
+    "percentiles": {
+      "1": -499.99879940045486,
+      "5": -499.99879940045486,
+      "10": -499.99879940045486,
+      "25": -499.99879940045486,
+      "50": -497.25684868858735,
+      "75": -497.19649086173195,
+      "90": -497.19649086173195,
+      "95": -497.19649086173195,
+      "99": -497.19649086173195
+    }
+  },
+  "elapsed_sec": 261.8641562461853
+}

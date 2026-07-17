@@ -1,0 +1,400 @@
+{"id": 125, "seed": 12000125, "valid": false, "n": 1, "e": 0}
+{"id": 126, "seed": 12000126, "valid": false, "n": 1, "e": 0}
+{"id": 127, "seed": 12000127, "valid": false, "n": 1, "e": 0}
+{"id": 128, "seed": 12000128, "valid": false, "n": 1, "e": 0}
+{"id": 25, "seed": 12000025, "valid": false, "n": 1, "e": 0}
+{"id": 26, "seed": 12000026, "valid": false, "n": 0, "e": 0}
+{"id": 27, "seed": 12000027, "valid": false, "n": 0, "e": 0}
+{"id": 28, "seed": 12000028, "valid": false, "n": 1, "e": 0}
+{"id": 161, "seed": 12000161, "valid": false, "n": 0, "e": 0}
+{"id": 162, "seed": 12000162, "valid": false, "n": 1, "e": 0}
+{"id": 163, "seed": 12000163, "valid": false, "n": 1, "e": 0}
+{"id": 164, "seed": 12000164, "valid": false, "n": 0, "e": 0}
+{"id": 133, "seed": 12000133, "valid": false, "n": 1, "e": 0}
+{"id": 134, "seed": 12000134, "valid": false, "n": 1, "e": 0}
+{"id": 135, "seed": 12000135, "valid": false, "n": 1, "e": 0}
+{"id": 136, "seed": 12000136, "valid": false, "n": 0, "e": 0}
+{"id": 5, "seed": 12000005, "valid": false, "n": 1, "e": 0}
+{"id": 6, "seed": 12000006, "valid": false, "n": 0, "e": 0}
+{"id": 7, "seed": 12000007, "valid": false, "n": 0, "e": 0}
+{"id": 8, "seed": 12000008, "valid": false, "n": 1, "e": 0}
+{"id": 53, "seed": 12000053, "valid": false, "n": 1, "e": 0}
+{"id": 54, "seed": 12000054, "valid": false, "n": 0, "e": 0}
+{"id": 55, "seed": 12000055, "valid": false, "n": 1, "e": 0}
+{"id": 56, "seed": 12000056, "valid": false, "n": 1, "e": 0}
+{"id": 109, "seed": 12000109, "valid": false, "n": 1, "e": 0}
+{"id": 110, "seed": 12000110, "valid": false, "n": 1, "e": 0}
+{"id": 111, "seed": 12000111, "valid": false, "n": 0, "e": 0}
+{"id": 112, "seed": 12000112, "valid": false, "n": 0, "e": 0}
+{"id": 105, "seed": 12000105, "valid": false, "n": 1, "e": 0}
+{"id": 106, "seed": 12000106, "valid": false, "n": 0, "e": 0}
+{"id": 107, "seed": 12000107, "valid": false, "n": 0, "e": 0}
+{"id": 108, "seed": 12000108, "valid": false, "n": 0, "e": 0}
+{"id": 49, "seed": 12000049, "valid": false, "n": 1, "e": 0}
+{"id": 50, "seed": 12000050, "valid": false, "n": 1, "e": 0}
+{"id": 51, "seed": 12000051, "valid": false, "n": 1, "e": 0}
+{"id": 52, "seed": 12000052, "valid": false, "n": 400, "e": 0}
+{"id": 141, "seed": 12000141, "valid": false, "n": 400, "e": 0}
+{"id": 142, "seed": 12000142, "valid": false, "n": 1, "e": 0}
+{"id": 143, "seed": 12000143, "valid": false, "n": 0, "e": 0}
+{"id": 144, "seed": 12000144, "valid": false, "n": 1, "e": 0}
+{"id": 129, "seed": 12000129, "valid": false, "n": 1, "e": 0}
+{"id": 130, "seed": 12000130, "valid": false, "n": 5, "e": 7}
+{"id": 131, "seed": 12000131, "valid": false, "n": 1, "e": 0}
+{"id": 132, "seed": 12000132, "valid": false, "n": 400, "e": 0}
+{"id": 41, "seed": 12000041, "valid": false, "n": 400, "e": 0}
+{"id": 42, "seed": 12000042, "valid": false, "n": 0, "e": 0}
+{"id": 43, "seed": 12000043, "valid": false, "n": 0, "e": 0}
+{"id": 44, "seed": 12000044, "valid": false, "n": 1, "e": 0}
+{"id": 61, "seed": 12000061, "valid": false, "n": 1, "e": 0}
+{"id": 62, "seed": 12000062, "valid": false, "n": 0, "e": 0}
+{"id": 63, "seed": 12000063, "valid": false, "n": 125, "e": 0}
+{"id": 64, "seed": 12000064, "valid": false, "n": 1, "e": 0}
+{"id": 33, "seed": 12000033, "valid": false, "n": 400, "e": 0}
+{"id": 34, "seed": 12000034, "valid": false, "n": 0, "e": 0}
+{"id": 35, "seed": 12000035, "valid": false, "n": 1, "e": 0}
+{"id": 36, "seed": 12000036, "valid": false, "n": 1, "e": 0}
+{"id": 1, "seed": 12000001, "valid": false, "n": 1, "e": 0}
+{"id": 2, "seed": 12000002, "valid": true, "acc": 0.075, "n": 336, "e": 149, "frac_mode": 1.0}
+{"id": 3, "seed": 12000003, "valid": false, "n": 1, "e": 0}
+{"id": 4, "seed": 12000004, "valid": false, "n": 1, "e": 0}
+{"id": 157, "seed": 12000157, "valid": false, "n": 374, "e": 0}
+{"id": 158, "seed": 12000158, "valid": false, "n": 400, "e": 0}
+{"id": 159, "seed": 12000159, "valid": false, "n": 0, "e": 0}
+{"id": 160, "seed": 12000160, "valid": false, "n": 7, "e": 1}
+{"id": 69, "seed": 12000069, "valid": false, "n": 1, "e": 0}
+{"id": 70, "seed": 12000070, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 537, "frac_mode": 1.0}
+{"id": 71, "seed": 12000071, "valid": false, "n": 1, "e": 0}
+{"id": 72, "seed": 12000072, "valid": false, "n": 0, "e": 0}
+{"id": 37, "seed": 12000037, "valid": false, "n": 1, "e": 0}
+{"id": 38, "seed": 12000038, "valid": false, "n": 1, "e": 0}
+{"id": 39, "seed": 12000039, "valid": false, "n": 400, "e": 0}
+{"id": 40, "seed": 12000040, "valid": false, "n": 1, "e": 0}
+{"id": 173, "seed": 12000173, "valid": false, "n": 1, "e": 0}
+{"id": 174, "seed": 12000174, "valid": false, "n": 0, "e": 0}
+{"id": 175, "seed": 12000175, "valid": false, "n": 1, "e": 0}
+{"id": 176, "seed": 12000176, "valid": false, "n": 0, "e": 0}
+{"id": 181, "seed": 12000181, "valid": false, "n": 1, "e": 0}
+{"id": 182, "seed": 12000182, "valid": false, "n": 0, "e": 0}
+{"id": 183, "seed": 12000183, "valid": false, "n": 1, "e": 0}
+{"id": 184, "seed": 12000184, "valid": false, "n": 1, "e": 0}
+{"id": 45, "seed": 12000045, "valid": false, "n": 0, "e": 0}
+{"id": 46, "seed": 12000046, "valid": false, "n": 0, "e": 0}
+{"id": 47, "seed": 12000047, "valid": true, "acc": 0.075, "n": 400, "e": 312, "frac_mode": 1.0}
+{"id": 48, "seed": 12000048, "valid": true, "acc": 0.075, "n": 354, "e": 747, "frac_mode": 1.0}
+{"id": 197, "seed": 12000197, "valid": false, "n": 0, "e": 0}
+{"id": 198, "seed": 12000198, "valid": false, "n": 0, "e": 0}
+{"id": 199, "seed": 12000199, "valid": false, "n": 400, "e": 0}
+{"id": 200, "seed": 12000200, "valid": false, "n": 1, "e": 0}
+{"id": 209, "seed": 12000209, "valid": false, "n": 400, "e": 0}
+{"id": 210, "seed": 12000210, "valid": false, "n": 1, "e": 0}
+{"id": 211, "seed": 12000211, "valid": false, "n": 1, "e": 0}
+{"id": 212, "seed": 12000212, "valid": false, "n": 0, "e": 0}
+{"id": 77, "seed": 12000077, "valid": false, "n": 1, "e": 0}
+{"id": 78, "seed": 12000078, "valid": false, "n": 1, "e": 0}
+{"id": 79, "seed": 12000079, "valid": true, "acc": 0.044444444444444446, "n": 374, "e": 1323, "frac_mode": 0.8611111111111112}
+{"id": 80, "seed": 12000080, "valid": true, "acc": 0.075, "n": 400, "e": 189, "frac_mode": 1.0}
+{"id": 201, "seed": 12000201, "valid": false, "n": 399, "e": 0}
+{"id": 202, "seed": 12000202, "valid": false, "n": 1, "e": 0}
+{"id": 203, "seed": 12000203, "valid": false, "n": 1, "e": 0}
+{"id": 204, "seed": 12000204, "valid": false, "n": 1, "e": 0}
+{"id": 149, "seed": 12000149, "valid": false, "n": 1, "e": 0}
+{"id": 150, "seed": 12000150, "valid": true, "acc": 0.11666666666666667, "n": 400, "e": 2242, "frac_mode": 0.8055555555555556}
+{"id": 151, "seed": 12000151, "valid": false, "n": 1, "e": 0}
+{"id": 152, "seed": 12000152, "valid": false, "n": 1, "e": 0}
+{"id": 245, "seed": 12000245, "valid": false, "n": 0, "e": 0}
+{"id": 246, "seed": 12000246, "valid": false, "n": 400, "e": 0}
+{"id": 247, "seed": 12000247, "valid": false, "n": 1, "e": 0}
+{"id": 248, "seed": 12000248, "valid": false, "n": 400, "e": 0}
+{"id": 21, "seed": 12000021, "valid": true, "acc": 0.07222222222222222, "n": 400, "e": 1078, "frac_mode": 0.5388888888888889}
+{"id": 22, "seed": 12000022, "valid": false, "n": 0, "e": 0}
+{"id": 23, "seed": 12000023, "valid": false, "n": 1, "e": 0}
+{"id": 24, "seed": 12000024, "valid": false, "n": 1, "e": 0}
+{"id": 249, "seed": 12000249, "valid": false, "n": 1, "e": 0}
+{"id": 250, "seed": 12000250, "valid": false, "n": 1, "e": 0}
+{"id": 251, "seed": 12000251, "valid": false, "n": 1, "e": 0}
+{"id": 252, "seed": 12000252, "valid": false, "n": 0, "e": 0}
+{"id": 253, "seed": 12000253, "valid": false, "n": 6, "e": 2}
+{"id": 254, "seed": 12000254, "valid": false, "n": 0, "e": 0}
+{"id": 255, "seed": 12000255, "valid": false, "n": 0, "e": 0}
+{"id": 256, "seed": 12000256, "valid": false, "n": 0, "e": 0}
+{"id": 85, "seed": 12000085, "valid": false, "n": 1, "e": 0}
+{"id": 86, "seed": 12000086, "valid": false, "n": 1, "e": 0}
+{"id": 87, "seed": 12000087, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 1089, "frac_mode": 0.8361111111111111}
+{"id": 88, "seed": 12000088, "valid": false, "n": 59, "e": 0}
+{"id": 153, "seed": 12000153, "valid": false, "n": 0, "e": 0}
+{"id": 154, "seed": 12000154, "valid": false, "n": 1, "e": 0}
+{"id": 155, "seed": 12000155, "valid": false, "n": 1, "e": 0}
+{"id": 156, "seed": 12000156, "valid": true, "acc": 0.10555555555555556, "n": 395, "e": 1378, "frac_mode": 1.0}
+{"id": 17, "seed": 12000017, "valid": false, "n": 1, "e": 0}
+{"id": 18, "seed": 12000018, "valid": false, "n": 0, "e": 0}
+{"id": 19, "seed": 12000019, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 497, "frac_mode": 1.0}
+{"id": 20, "seed": 12000020, "valid": false, "n": 3, "e": 6}
+{"id": 229, "seed": 12000229, "valid": false, "n": 0, "e": 0}
+{"id": 230, "seed": 12000230, "valid": false, "n": 1, "e": 0}
+{"id": 231, "seed": 12000231, "valid": false, "n": 0, "e": 0}
+{"id": 232, "seed": 12000232, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 495, "frac_mode": 1.0}
+{"id": 117, "seed": 12000117, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1024, "frac_mode": 1.0}
+{"id": 118, "seed": 12000118, "valid": false, "n": 1, "e": 0}
+{"id": 119, "seed": 12000119, "valid": false, "n": 0, "e": 0}
+{"id": 120, "seed": 12000120, "valid": false, "n": 400, "e": 0}
+{"id": 97, "seed": 12000097, "valid": false, "n": 1, "e": 0}
+{"id": 98, "seed": 12000098, "valid": false, "n": 1, "e": 0}
+{"id": 99, "seed": 12000099, "valid": true, "acc": 0.11666666666666667, "n": 400, "e": 961, "frac_mode": 0.6333333333333333}
+{"id": 100, "seed": 12000100, "valid": false, "n": 400, "e": 0}
+{"id": 121, "seed": 12000121, "valid": false, "n": 1, "e": 0}
+{"id": 122, "seed": 12000122, "valid": false, "n": 400, "e": 0}
+{"id": 123, "seed": 12000123, "valid": false, "n": 400, "e": 0}
+{"id": 124, "seed": 12000124, "valid": true, "acc": 0.03333333333333333, "n": 400, "e": 1407, "frac_mode": 0.5222222222222223}
+{"id": 165, "seed": 12000165, "valid": false, "n": 400, "e": 0}
+{"id": 166, "seed": 12000166, "valid": false, "n": 1, "e": 0}
+{"id": 167, "seed": 12000167, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1063, "frac_mode": 1.0}
+{"id": 168, "seed": 12000168, "valid": false, "n": 152, "e": 0}
+{"id": 13, "seed": 12000013, "valid": false, "n": 1, "e": 0}
+{"id": 14, "seed": 12000014, "valid": true, "acc": 0.075, "n": 400, "e": 512, "frac_mode": 1.0}
+{"id": 15, "seed": 12000015, "valid": false, "n": 0, "e": 0}
+{"id": 16, "seed": 12000016, "valid": false, "n": 1, "e": 0}
+{"id": 137, "seed": 12000137, "valid": true, "acc": 0.075, "n": 400, "e": 1171, "frac_mode": 1.0}
+{"id": 138, "seed": 12000138, "valid": false, "n": 1, "e": 0}
+{"id": 139, "seed": 12000139, "valid": false, "n": 400, "e": 0}
+{"id": 140, "seed": 12000140, "valid": false, "n": 0, "e": 0}
+{"id": 269, "seed": 12000269, "valid": false, "n": 0, "e": 0}
+{"id": 270, "seed": 12000270, "valid": false, "n": 1, "e": 0}
+{"id": 271, "seed": 12000271, "valid": false, "n": 18, "e": 0}
+{"id": 272, "seed": 12000272, "valid": false, "n": 1, "e": 0}
+{"id": 205, "seed": 12000205, "valid": false, "n": 1, "e": 0}
+{"id": 206, "seed": 12000206, "valid": false, "n": 1, "e": 0}
+{"id": 207, "seed": 12000207, "valid": false, "n": 400, "e": 0}
+{"id": 208, "seed": 12000208, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 604, "frac_mode": 0.9638888888888889}
+{"id": 281, "seed": 12000281, "valid": false, "n": 2, "e": 0}
+{"id": 282, "seed": 12000282, "valid": false, "n": 1, "e": 0}
+{"id": 283, "seed": 12000283, "valid": false, "n": 0, "e": 0}
+{"id": 284, "seed": 12000284, "valid": false, "n": 0, "e": 0}
+{"id": 193, "seed": 12000193, "valid": false, "n": 1, "e": 0}
+{"id": 194, "seed": 12000194, "valid": false, "n": 1, "e": 0}
+{"id": 195, "seed": 12000195, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1031, "frac_mode": 1.0}
+{"id": 196, "seed": 12000196, "valid": false, "n": 1, "e": 0}
+{"id": 221, "seed": 12000221, "valid": true, "acc": 0.075, "n": 400, "e": 524, "frac_mode": 1.0}
+{"id": 222, "seed": 12000222, "valid": false, "n": 400, "e": 0}
+{"id": 223, "seed": 12000223, "valid": false, "n": 1, "e": 0}
+{"id": 224, "seed": 12000224, "valid": false, "n": 0, "e": 0}
+{"id": 217, "seed": 12000217, "valid": true, "acc": 0.06388888888888888, "n": 400, "e": 1032, "frac_mode": 0.8027777777777778}
+{"id": 218, "seed": 12000218, "valid": false, "n": 1, "e": 0}
+{"id": 219, "seed": 12000219, "valid": false, "n": 0, "e": 0}
+{"id": 220, "seed": 12000220, "valid": false, "n": 0, "e": 0}
+{"id": 177, "seed": 12000177, "valid": false, "n": 0, "e": 0}
+{"id": 178, "seed": 12000178, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 1031, "frac_mode": 1.0}
+{"id": 179, "seed": 12000179, "valid": false, "n": 1, "e": 0}
+{"id": 180, "seed": 12000180, "valid": false, "n": 0, "e": 0}
+{"id": 225, "seed": 12000225, "valid": false, "n": 1, "e": 0}
+{"id": 226, "seed": 12000226, "valid": false, "n": 1, "e": 0}
+{"id": 227, "seed": 12000227, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 833, "frac_mode": 1.0}
+{"id": 228, "seed": 12000228, "valid": false, "n": 0, "e": 0}
+{"id": 301, "seed": 12000301, "valid": false, "n": 42, "e": 90}
+{"id": 302, "seed": 12000302, "valid": false, "n": 1, "e": 0}
+{"id": 303, "seed": 12000303, "valid": false, "n": 1, "e": 0}
+{"id": 304, "seed": 12000304, "valid": false, "n": 4, "e": 0}
+{"id": 169, "seed": 12000169, "valid": false, "n": 400, "e": 0}
+{"id": 170, "seed": 12000170, "valid": false, "n": 400, "e": 0}
+{"id": 171, "seed": 12000171, "valid": false, "n": 0, "e": 0}
+{"id": 172, "seed": 12000172, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 644, "frac_mode": 0.7611111111111111}
+{"id": 289, "seed": 12000289, "valid": false, "n": 1, "e": 0}
+{"id": 290, "seed": 12000290, "valid": false, "n": 1, "e": 0}
+{"id": 291, "seed": 12000291, "valid": false, "n": 1, "e": 0}
+{"id": 292, "seed": 12000292, "valid": false, "n": 400, "e": 0}
+{"id": 189, "seed": 12000189, "valid": false, "n": 1, "e": 0}
+{"id": 190, "seed": 12000190, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 899, "frac_mode": 1.0}
+{"id": 191, "seed": 12000191, "valid": false, "n": 1, "e": 0}
+{"id": 192, "seed": 12000192, "valid": true, "acc": 0.075, "n": 400, "e": 354, "frac_mode": 1.0}
+{"id": 257, "seed": 12000257, "valid": false, "n": 1, "e": 0}
+{"id": 258, "seed": 12000258, "valid": false, "n": 0, "e": 0}
+{"id": 259, "seed": 12000259, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1107, "frac_mode": 0.9972222222222222}
+{"id": 260, "seed": 12000260, "valid": false, "n": 32, "e": 0}
+{"id": 101, "seed": 12000101, "valid": false, "n": 1, "e": 0}
+{"id": 102, "seed": 12000102, "valid": false, "n": 13, "e": 27}
+{"id": 103, "seed": 12000103, "valid": true, "acc": 0.058333333333333334, "n": 400, "e": 772, "frac_mode": 0.8638888888888889}
+{"id": 104, "seed": 12000104, "valid": true, "acc": 0.075, "n": 400, "e": 936, "frac_mode": 1.0}
+{"id": 237, "seed": 12000237, "valid": false, "n": 1, "e": 0}
+{"id": 238, "seed": 12000238, "valid": false, "n": 1, "e": 0}
+{"id": 239, "seed": 12000239, "valid": true, "acc": 0.075, "n": 400, "e": 1119, "frac_mode": 1.0}
+{"id": 240, "seed": 12000240, "valid": false, "n": 400, "e": 0}
+{"id": 57, "seed": 12000057, "valid": true, "acc": 0.15, "n": 399, "e": 1068, "frac_mode": 0.725}
+{"id": 58, "seed": 12000058, "valid": false, "n": 0, "e": 0}
+{"id": 59, "seed": 12000059, "valid": false, "n": 0, "e": 0}
+{"id": 60, "seed": 12000060, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1160, "frac_mode": 0.6555555555555556}
+{"id": 9, "seed": 12000009, "valid": false, "n": 1, "e": 0}
+{"id": 10, "seed": 12000010, "valid": true, "acc": 0.022222222222222223, "n": 400, "e": 1108, "frac_mode": 0.6583333333333333}
+{"id": 11, "seed": 12000011, "valid": true, "acc": 0.18055555555555555, "n": 374, "e": 1086, "frac_mode": 0.7666666666666667}
+{"id": 12, "seed": 12000012, "valid": false, "n": 1, "e": 0}
+{"id": 369, "seed": 12000369, "valid": false, "n": 0, "e": 0}
+{"id": 370, "seed": 12000370, "valid": false, "n": 1, "e": 0}
+{"id": 371, "seed": 12000371, "valid": false, "n": 0, "e": 0}
+{"id": 372, "seed": 12000372, "valid": false, "n": 0, "e": 0}
+{"id": 89, "seed": 12000089, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1016, "frac_mode": 1.0}
+{"id": 90, "seed": 12000090, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1069, "frac_mode": 1.0}
+{"id": 91, "seed": 12000091, "valid": false, "n": 0, "e": 0}
+{"id": 92, "seed": 12000092, "valid": false, "n": 0, "e": 0}
+{"id": 113, "seed": 12000113, "valid": false, "n": 0, "e": 0}
+{"id": 114, "seed": 12000114, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1098, "frac_mode": 1.0}
+{"id": 115, "seed": 12000115, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1044, "frac_mode": 0.8666666666666667}
+{"id": 116, "seed": 12000116, "valid": false, "n": 1, "e": 0}
+{"id": 325, "seed": 12000325, "valid": false, "n": 1, "e": 0}
+{"id": 326, "seed": 12000326, "valid": false, "n": 0, "e": 0}
+{"id": 327, "seed": 12000327, "valid": true, "acc": 0.075, "n": 400, "e": 1284, "frac_mode": 1.0}
+{"id": 328, "seed": 12000328, "valid": false, "n": 0, "e": 0}
+{"id": 29, "seed": 12000029, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 975, "frac_mode": 1.0}
+{"id": 30, "seed": 12000030, "valid": false, "n": 1, "e": 0}
+{"id": 31, "seed": 12000031, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 784, "frac_mode": 0.8027777777777778}
+{"id": 32, "seed": 12000032, "valid": false, "n": 1, "e": 0}
+{"id": 305, "seed": 12000305, "valid": false, "n": 7, "e": 16}
+{"id": 306, "seed": 12000306, "valid": true, "acc": 0.15555555555555556, "n": 384, "e": 1490, "frac_mode": 0.55}
+{"id": 307, "seed": 12000307, "valid": false, "n": 0, "e": 0}
+{"id": 308, "seed": 12000308, "valid": false, "n": 1, "e": 0}
+{"id": 377, "seed": 12000377, "valid": false, "n": 1, "e": 0}
+{"id": 378, "seed": 12000378, "valid": false, "n": 1, "e": 0}
+{"id": 379, "seed": 12000379, "valid": false, "n": 0, "e": 0}
+{"id": 380, "seed": 12000380, "valid": false, "n": 3, "e": 4}
+{"id": 213, "seed": 12000213, "valid": false, "n": 0, "e": 0}
+{"id": 214, "seed": 12000214, "valid": true, "acc": 0.03611111111111111, "n": 394, "e": 1022, "frac_mode": 0.7722222222222223}
+{"id": 215, "seed": 12000215, "valid": false, "n": 1, "e": 0}
+{"id": 216, "seed": 12000216, "valid": true, "acc": 0.11944444444444445, "n": 380, "e": 1498, "frac_mode": 1.0}
+{"id": 381, "seed": 12000381, "valid": false, "n": 1, "e": 0}
+{"id": 382, "seed": 12000382, "valid": false, "n": 0, "e": 0}
+{"id": 383, "seed": 12000383, "valid": false, "n": 1, "e": 0}
+{"id": 384, "seed": 12000384, "valid": false, "n": 1, "e": 0}
+{"id": 333, "seed": 12000333, "valid": false, "n": 19, "e": 33}
+{"id": 334, "seed": 12000334, "valid": true, "acc": 0.10555555555555556, "n": 383, "e": 1071, "frac_mode": 1.0}
+{"id": 335, "seed": 12000335, "valid": false, "n": 1, "e": 0}
+{"id": 336, "seed": 12000336, "valid": false, "n": 1, "e": 0}
+{"id": 293, "seed": 12000293, "valid": false, "n": 1, "e": 0}
+{"id": 294, "seed": 12000294, "valid": true, "acc": 0.10555555555555556, "n": 396, "e": 1103, "frac_mode": 0.9805555555555555}
+{"id": 295, "seed": 12000295, "valid": false, "n": 0, "e": 0}
+{"id": 296, "seed": 12000296, "valid": false, "n": 0, "e": 0}
+{"id": 297, "seed": 12000297, "valid": false, "n": 0, "e": 0}
+{"id": 298, "seed": 12000298, "valid": false, "n": 1, "e": 0}
+{"id": 299, "seed": 12000299, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1261, "frac_mode": 1.0}
+{"id": 300, "seed": 12000300, "valid": false, "n": 0, "e": 0}
+{"id": 93, "seed": 12000093, "valid": true, "acc": 0.075, "n": 400, "e": 1083, "frac_mode": 1.0}
+{"id": 94, "seed": 12000094, "valid": false, "n": 0, "e": 0}
+{"id": 95, "seed": 12000095, "valid": true, "acc": 0.075, "n": 400, "e": 552, "frac_mode": 1.0}
+{"id": 96, "seed": 12000096, "valid": false, "n": 1, "e": 0}
+{"id": 349, "seed": 12000349, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1063, "frac_mode": 0.7}
+{"id": 350, "seed": 12000350, "valid": false, "n": 0, "e": 0}
+{"id": 351, "seed": 12000351, "valid": false, "n": 1, "e": 0}
+{"id": 352, "seed": 12000352, "valid": false, "n": 0, "e": 0}
+{"id": 309, "seed": 12000309, "valid": false, "n": 1, "e": 0}
+{"id": 310, "seed": 12000310, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1036, "frac_mode": 1.0}
+{"id": 311, "seed": 12000311, "valid": false, "n": 1, "e": 0}
+{"id": 312, "seed": 12000312, "valid": false, "n": 1, "e": 0}
+{"id": 393, "seed": 12000393, "valid": false, "n": 0, "e": 0}
+{"id": 394, "seed": 12000394, "valid": false, "n": 1, "e": 0}
+{"id": 395, "seed": 12000395, "valid": false, "n": 0, "e": 0}
+{"id": 396, "seed": 12000396, "valid": false, "n": 1, "e": 0}
+{"id": 265, "seed": 12000265, "valid": false, "n": 1, "e": 0}
+{"id": 266, "seed": 12000266, "valid": true, "acc": 0.075, "n": 400, "e": 496, "frac_mode": 1.0}
+{"id": 267, "seed": 12000267, "valid": false, "n": 400, "e": 0}
+{"id": 268, "seed": 12000268, "valid": false, "n": 1, "e": 0}
+{"id": 81, "seed": 12000081, "valid": true, "acc": 0.14166666666666666, "n": 400, "e": 1022, "frac_mode": 0.8638888888888889}
+{"id": 82, "seed": 12000082, "valid": false, "n": 0, "e": 0}
+{"id": 83, "seed": 12000083, "valid": false, "n": 400, "e": 0}
+{"id": 84, "seed": 12000084, "valid": true, "acc": 0.075, "n": 400, "e": 495, "frac_mode": 1.0}
+{"id": 313, "seed": 12000313, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 939, "frac_mode": 1.0}
+{"id": 314, "seed": 12000314, "valid": false, "n": 0, "e": 0}
+{"id": 315, "seed": 12000315, "valid": false, "n": 0, "e": 0}
+{"id": 316, "seed": 12000316, "valid": false, "n": 1, "e": 0}
+{"id": 65, "seed": 12000065, "valid": false, "n": 1, "e": 0}
+{"id": 66, "seed": 12000066, "valid": true, "acc": 0.10555555555555556, "n": 377, "e": 1047, "frac_mode": 1.0}
+{"id": 67, "seed": 12000067, "valid": true, "acc": 0.10555555555555556, "n": 373, "e": 829, "frac_mode": 1.0}
+{"id": 68, "seed": 12000068, "valid": true, "acc": 0.06944444444444445, "n": 400, "e": 1002, "frac_mode": 0.8666666666666667}
+{"id": 329, "seed": 12000329, "valid": true, "acc": 0.08055555555555556, "n": 400, "e": 936, "frac_mode": 0.9777777777777777}
+{"id": 330, "seed": 12000330, "valid": false, "n": 1, "e": 0}
+{"id": 331, "seed": 12000331, "valid": false, "n": 1, "e": 0}
+{"id": 332, "seed": 12000332, "valid": false, "n": 1, "e": 0}
+{"id": 337, "seed": 12000337, "valid": false, "n": 1, "e": 0}
+{"id": 338, "seed": 12000338, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 1930, "frac_mode": 1.0}
+{"id": 339, "seed": 12000339, "valid": false, "n": 400, "e": 0}
+{"id": 340, "seed": 12000340, "valid": false, "n": 1, "e": 0}
+{"id": 317, "seed": 12000317, "valid": false, "n": 350, "e": 0}
+{"id": 318, "seed": 12000318, "valid": false, "n": 1, "e": 0}
+{"id": 319, "seed": 12000319, "valid": true, "acc": 0.027777777777777776, "n": 399, "e": 1115, "frac_mode": 0.8333333333333334}
+{"id": 320, "seed": 12000320, "valid": false, "n": 0, "e": 0}
+{"id": 73, "seed": 12000073, "valid": true, "acc": 0.075, "n": 400, "e": 512, "frac_mode": 1.0}
+{"id": 74, "seed": 12000074, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1172, "frac_mode": 1.0}
+{"id": 75, "seed": 12000075, "valid": false, "n": 1, "e": 0}
+{"id": 76, "seed": 12000076, "valid": true, "acc": 0.07777777777777778, "n": 400, "e": 1018, "frac_mode": 0.5361111111111111}
+{"id": 261, "seed": 12000261, "valid": false, "n": 0, "e": 0}
+{"id": 262, "seed": 12000262, "valid": true, "acc": 0.15, "n": 400, "e": 1101, "frac_mode": 0.6888888888888889}
+{"id": 263, "seed": 12000263, "valid": true, "acc": 0.075, "n": 400, "e": 497, "frac_mode": 1.0}
+{"id": 264, "seed": 12000264, "valid": false, "n": 0, "e": 0}
+{"id": 357, "seed": 12000357, "valid": false, "n": 1, "e": 0}
+{"id": 358, "seed": 12000358, "valid": false, "n": 1, "e": 0}
+{"id": 359, "seed": 12000359, "valid": false, "n": 2, "e": 0}
+{"id": 360, "seed": 12000360, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1053, "frac_mode": 1.0}
+{"id": 145, "seed": 12000145, "valid": true, "acc": 0.075, "n": 400, "e": 400, "frac_mode": 1.0}
+{"id": 146, "seed": 12000146, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1234, "frac_mode": 1.0}
+{"id": 147, "seed": 12000147, "valid": true, "acc": 0.075, "n": 400, "e": 131, "frac_mode": 1.0}
+{"id": 148, "seed": 12000148, "valid": true, "acc": 0.09444444444444444, "n": 237, "e": 724, "frac_mode": 1.0}
+{"id": 341, "seed": 12000341, "valid": true, "acc": 0.08055555555555556, "n": 400, "e": 1009, "frac_mode": 0.9361111111111111}
+{"id": 342, "seed": 12000342, "valid": true, "acc": 0.075, "n": 298, "e": 408, "frac_mode": 1.0}
+{"id": 343, "seed": 12000343, "valid": false, "n": 1, "e": 0}
+{"id": 344, "seed": 12000344, "valid": false, "n": 0, "e": 0}
+{"id": 241, "seed": 12000241, "valid": false, "n": 1, "e": 0}
+{"id": 242, "seed": 12000242, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 779, "frac_mode": 1.0}
+{"id": 243, "seed": 12000243, "valid": true, "acc": 0.08611111111111111, "n": 400, "e": 1212, "frac_mode": 1.0}
+{"id": 244, "seed": 12000244, "valid": false, "n": 1, "e": 0}
+{"id": 365, "seed": 12000365, "valid": false, "n": 1, "e": 0}
+{"id": 366, "seed": 12000366, "valid": true, "acc": 0.075, "n": 400, "e": 589, "frac_mode": 1.0}
+{"id": 367, "seed": 12000367, "valid": false, "n": 8, "e": 19}
+{"id": 368, "seed": 12000368, "valid": false, "n": 1, "e": 0}
+{"id": 233, "seed": 12000233, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1461, "frac_mode": 1.0}
+{"id": 234, "seed": 12000234, "valid": true, "acc": 0.075, "n": 400, "e": 1103, "frac_mode": 1.0}
+{"id": 235, "seed": 12000235, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1431, "frac_mode": 1.0}
+{"id": 236, "seed": 12000236, "valid": false, "n": 3, "e": 5}
+{"id": 385, "seed": 12000385, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1122, "frac_mode": 1.0}
+{"id": 386, "seed": 12000386, "valid": false, "n": 1, "e": 0}
+{"id": 387, "seed": 12000387, "valid": false, "n": 1, "e": 0}
+{"id": 388, "seed": 12000388, "valid": false, "n": 0, "e": 0}
+{"id": 277, "seed": 12000277, "valid": false, "n": 400, "e": 0}
+{"id": 278, "seed": 12000278, "valid": false, "n": 0, "e": 0}
+{"id": 279, "seed": 12000279, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 2556, "frac_mode": 1.0}
+{"id": 280, "seed": 12000280, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1293, "frac_mode": 1.0}
+{"id": 361, "seed": 12000361, "valid": true, "acc": 0.075, "n": 279, "e": 625, "frac_mode": 1.0}
+{"id": 362, "seed": 12000362, "valid": true, "acc": 0.08055555555555556, "n": 400, "e": 1089, "frac_mode": 0.9611111111111111}
+{"id": 363, "seed": 12000363, "valid": false, "n": 0, "e": 0}
+{"id": 364, "seed": 12000364, "valid": false, "n": 1, "e": 0}
+{"id": 285, "seed": 12000285, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1349, "frac_mode": 1.0}
+{"id": 286, "seed": 12000286, "valid": true, "acc": 0.05, "n": 400, "e": 1085, "frac_mode": 0.45}
+{"id": 287, "seed": 12000287, "valid": false, "n": 0, "e": 0}
+{"id": 288, "seed": 12000288, "valid": true, "acc": 0.1527777777777778, "n": 152, "e": 353, "frac_mode": 0.5444444444444444}
+{"id": 273, "seed": 12000273, "valid": true, "acc": 0.075, "n": 200, "e": 565, "frac_mode": 1.0}
+{"id": 274, "seed": 12000274, "valid": true, "acc": 0.12777777777777777, "n": 400, "e": 794, "frac_mode": 0.4}
+{"id": 275, "seed": 12000275, "valid": true, "acc": 0.075, "n": 400, "e": 582, "frac_mode": 1.0}
+{"id": 276, "seed": 12000276, "valid": false, "n": 1, "e": 0}
+{"id": 185, "seed": 12000185, "valid": false, "n": 1, "e": 0}
+{"id": 186, "seed": 12000186, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 1120, "frac_mode": 1.0}
+{"id": 187, "seed": 12000187, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1110, "frac_mode": 1.0}
+{"id": 188, "seed": 12000188, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1043, "frac_mode": 1.0}
+{"id": 373, "seed": 12000373, "valid": false, "n": 2, "e": 0}
+{"id": 374, "seed": 12000374, "valid": true, "acc": 0.075, "n": 392, "e": 1085, "frac_mode": 1.0}
+{"id": 375, "seed": 12000375, "valid": false, "n": 400, "e": 2}
+{"id": 376, "seed": 12000376, "valid": true, "acc": 0.075, "n": 400, "e": 786, "frac_mode": 1.0}
+{"id": 345, "seed": 12000345, "valid": false, "n": 1, "e": 0}
+{"id": 346, "seed": 12000346, "valid": true, "acc": 0.075, "n": 397, "e": 931, "frac_mode": 1.0}
+{"id": 347, "seed": 12000347, "valid": false, "n": 400, "e": 0}
+{"id": 348, "seed": 12000348, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1119, "frac_mode": 1.0}
+{"id": 353, "seed": 12000353, "valid": false, "n": 400, "e": 0}
+{"id": 354, "seed": 12000354, "valid": true, "acc": 0.09444444444444444, "n": 400, "e": 991, "frac_mode": 1.0}
+{"id": 355, "seed": 12000355, "valid": true, "acc": 0.09166666666666666, "n": 400, "e": 1043, "frac_mode": 0.9694444444444444}
+{"id": 356, "seed": 12000356, "valid": false, "n": 1, "e": 0}
+{"id": 389, "seed": 12000389, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1224, "frac_mode": 1.0}
+{"id": 390, "seed": 12000390, "valid": false, "n": 0, "e": 0}
+{"id": 391, "seed": 12000391, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1045, "frac_mode": 1.0}
+{"id": 392, "seed": 12000392, "valid": false, "n": 1, "e": 0}
+{"id": 321, "seed": 12000321, "valid": false, "n": 0, "e": 0}
+{"id": 322, "seed": 12000322, "valid": true, "acc": 0.10555555555555556, "n": 400, "e": 1046, "frac_mode": 1.0}
+{"id": 323, "seed": 12000323, "valid": true, "acc": 0.11944444444444445, "n": 400, "e": 1104, "frac_mode": 1.0}
+{"id": 324, "seed": 12000324, "valid": true, "acc": 0.075, "n": 400, "e": 734, "frac_mode": 1.0}
+{"id": 397, "seed": 12000397, "valid": true, "acc": 0.075, "n": 400, "e": 488, "frac_mode": 1.0}
+{"id": 398, "seed": 12000398, "valid": true, "acc": 0.075, "n": 385, "e": 12, "frac_mode": 1.0}
+{"id": 399, "seed": 12000399, "valid": true, "acc": 0.075, "n": 400, "e": 1217, "frac_mode": 1.0}
+{"id": 400, "seed": 12000400, "valid": false, "n": 1, "e": 0}

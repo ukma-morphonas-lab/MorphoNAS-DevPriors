@@ -1,0 +1,78 @@
+{
+  "experiment": "E1_pool",
+  "task": "mountaincar_shaped",
+  "env_name": "MountainCar-v0",
+  "input_dim": 2,
+  "output_dim": 3,
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_pool": true
+  },
+  "target_valid_total": 500,
+  "target_valid_this_shard": 500,
+  "start_seed": 9000001,
+  "attempts": 2050,
+  "valid_count": 500,
+  "invalid_count": 1550,
+  "validity_rate": 0.24390243902439024,
+  "stratum_counts": {
+    "weak": 492,
+    "low_mid": 3,
+    "high_mid": 2,
+    "near_perfect": 3,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -150.0
+    ],
+    "low_mid": [
+      -150.0,
+      -100.0
+    ],
+    "high_mid": [
+      -100.0,
+      -50.0
+    ],
+    "near_perfect": [
+      -50.0,
+      0.0
+    ],
+    "perfect": [
+      0.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": true,
+  "nonweak_count": 8,
+  "competent_fraction": 0.016,
+  "gate_frac": 0.01,
+  "gate_pass": true,
+  "reward_summary": {
+    "mean": -222.8663124819398,
+    "std": 24.73944982608103,
+    "median": -231.0498335212469,
+    "min": -268.56186002492905,
+    "max": -28.897067695856094,
+    "percentiles": {
+      "1": -267.0312093272805,
+      "5": -236.32467183470726,
+      "10": -235.0149446874857,
+      "25": -233.08967925608158,
+      "50": -231.0498335212469,
+      "75": -226.74499418586493,
+      "90": -201.06027945876122,
+      "95": -179.96646526455882,
+      "99": -118.40402153301257
+    }
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  },
+  "timestamp": "2026-05-31 00:00:34"
+}

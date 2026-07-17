@@ -1,0 +1,78 @@
+{
+  "experiment": "E1_pool",
+  "task": "pendulum",
+  "env_name": "Pendulum-v1",
+  "input_dim": 3,
+  "output_dim": 3,
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_pool": true
+  },
+  "target_valid_total": 5000,
+  "target_valid_this_shard": 5000,
+  "start_seed": 10000001,
+  "attempts": 19578,
+  "valid_count": 5000,
+  "invalid_count": 14578,
+  "validity_rate": 0.25538870160384103,
+  "stratum_counts": {
+    "weak": 4497,
+    "low_mid": 397,
+    "high_mid": 93,
+    "near_perfect": 13,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -1322.0
+    ],
+    "low_mid": [
+      -1322.0,
+      -1171.0
+    ],
+    "high_mid": [
+      -1171.0,
+      -967.0
+    ],
+    "near_perfect": [
+      -967.0,
+      -300.0
+    ],
+    "perfect": [
+      -300.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": false,
+  "nonweak_count": 503,
+  "competent_fraction": 0.1006,
+  "gate_frac": 0.01,
+  "gate_pass": true,
+  "reward_summary": {
+    "mean": -1441.7149649965654,
+    "std": 113.28416706534107,
+    "median": -1444.003699582007,
+    "min": -1887.3609602114407,
+    "max": -585.2341117571945,
+    "percentiles": {
+      "1": -1772.3508392479725,
+      "5": -1620.1077155346177,
+      "10": -1580.1595359952166,
+      "25": -1495.5030294340952,
+      "50": -1444.003699582007,
+      "75": -1387.9745063812823,
+      "90": -1321.3258250940066,
+      "95": -1260.1145144480422,
+      "99": -1093.624157697214
+    }
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  },
+  "timestamp": "2026-05-31 20:12:49"
+}

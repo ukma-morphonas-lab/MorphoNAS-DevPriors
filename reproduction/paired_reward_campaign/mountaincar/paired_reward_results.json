@@ -1,0 +1,126 @@
+{
+  "analysis_contract": {
+    "cluster_contents": "one grown row and all nested random-control requests; invalid requests remain source-linked through the observed valid-control count",
+    "paired_contrast": "same source-cluster bootstrap draw for both cells",
+    "point_estimator": "Mantel-Haenszel odds ratio over exact (N,E) strata",
+    "primary_uncertainty": "nonparametric source-cluster percentile bootstrap"
+  },
+  "analyzer_sha256": "9b2d837df692be57105630e3c5bb69a0ee5896e8f5d7e800dbb31a7598cd931a",
+  "components": {
+    "mountaincar": {
+      "grown": {
+        "competent": 105,
+        "total": 5000
+      },
+      "ne_stratified_mh": {
+        "bootstrap_replicates": 20000,
+        "bootstrap_seed": 20260717,
+        "bootstrap_valid_replicates": 20000,
+        "ln_or": 1.925686652016633,
+        "n_strata_shared": 1781,
+        "or_mh": 6.8598573839953145,
+        "source_cluster_percentile_ci": [
+          4.957287808435639,
+          9.877067933836468
+        ],
+        "standard_rbg_ci": [
+          4.929425785906638,
+          9.546272805910602
+        ],
+        "standard_rbg_se_ln": 0.16860725339811408
+      },
+      "random": {
+        "competent": 68,
+        "nominal_requested": 25000,
+        "total_valid": 18477
+      },
+      "source_stratified_mh_sensitivity": 6.988603988603989,
+      "task": "mountaincar",
+      "threshold": -198.0,
+      "threshold_provenance": "Gymnasium solved: reward >= -110 (perfect). Non-weak >= -198 = flag-escape behavioral anchor (-200 = never-reached dead floor), locked; intermediate strata bounds provisional."
+    },
+    "mountaincar_shaped": {
+      "grown": {
+        "competent": 479,
+        "total": 5000
+      },
+      "ne_stratified_mh": {
+        "bootstrap_replicates": 20000,
+        "bootstrap_seed": 20260717,
+        "bootstrap_valid_replicates": 20000,
+        "ln_or": -1.2970079494599729,
+        "n_strata_shared": 1781,
+        "or_mh": 0.273348443052353,
+        "source_cluster_percentile_ci": [
+          0.2455886154049873,
+          0.30179479580304497
+        ],
+        "standard_rbg_ci": [
+          0.2467086773061258,
+          0.3028647882799467
+        ],
+        "standard_rbg_se_ln": 0.05231684556417483
+      },
+      "random": {
+        "competent": 6199,
+        "nominal_requested": 25000,
+        "total_valid": 18477
+      },
+      "source_stratified_mh_sensitivity": 0.26917639382295366,
+      "task": "mountaincar_shaped",
+      "threshold": -200.0,
+      "threshold_provenance": "Shaped: -1/step + 100*(position progress); dense partial-progress credit. Non-weak -200 = top decile of the 500-net pilot (9.6%). 2026-05-31 calibration."
+    }
+  },
+  "experiment": "paired_reward_analysis",
+  "immutable_run_config_sha256": "dba43924870b90bebe8c2760aba52578ccca7c7c06bb41b07a51b528c38cd654",
+  "input_files": {
+    "controls": {
+      "path": "controls.jsonl",
+      "sha256": "3db52feab93d5008866280f1b4a11bc52b75737653aac87d2665e96a0fcf8b8f"
+    },
+    "sources": {
+      "path": "sources.jsonl",
+      "sha256": "53f27a58509b1afcfb1d2a9c812ed8c61765dfffe855ca8918d43ec38c8029c5"
+    }
+  },
+  "native_acrobot_threshold_sweep": null,
+  "pair": "mountaincar",
+  "paired_ratio_of_odds_ratios": {
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 20260717,
+    "bootstrap_valid_replicates": 20000,
+    "descriptive_only": false,
+    "note": null,
+    "point": 25.09565193565592,
+    "source_cluster_percentile_ci": [
+      18.487179389078204,
+      35.78202919637867
+    ]
+  },
+  "pairing_audit": {
+    "historical_topology_role": "audit only; controls use freshly regrown (N,E)",
+    "historical_topology_shape_matches": 5000,
+    "historical_topology_shape_mismatches": 0,
+    "invalid_controls": 6523,
+    "invalid_sources": 0,
+    "lockstep_control_trajectories": 18477,
+    "lockstep_source_trajectories": 5000,
+    "max_valid_controls_per_source": 5,
+    "min_valid_controls_per_source": 0,
+    "requested_controls": 25000,
+    "requested_controls_per_source": 5,
+    "source_rows": 5000,
+    "sources_with_valid_controls": 3812,
+    "trajectory_assertion_failures": 0,
+    "unique_control_trajectory_hashes": 11122,
+    "unique_source_trajectory_hashes": 5000,
+    "valid_controls": 18477,
+    "valid_sources": 5000
+  },
+  "schema_version": 2,
+  "tasks": [
+    "mountaincar",
+    "mountaincar_shaped"
+  ]
+}

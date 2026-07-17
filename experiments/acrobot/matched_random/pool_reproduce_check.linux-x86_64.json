@@ -1,0 +1,41 @@
+{
+  "check_A": {
+    "counts": {
+      "weak": 4487,
+      "low_mid": 71,
+      "high_mid": 74,
+      "near_perfect": 281,
+      "perfect": 87
+    },
+    "metadata": {
+      "weak": 4487,
+      "high_mid": 74,
+      "low_mid": 71,
+      "near_perfect": 281,
+      "perfect": 87
+    },
+    "match": true,
+    "nonweak_rate": 0.1026,
+    "solved_rate": 0.0174
+  },
+  "check_B": {
+    "n_resampled": 563,
+    "n_nonweak": 513,
+    "reward_abs_err_max": 404.05,
+    "reward_abs_err_mean": 17.131705150976913,
+    "graphs_changed_NE": 60,
+    "stratum_changed": 36,
+    "nonweak_reproduced": [
+      488,
+      513
+    ],
+    "perfect_reproduced": [
+      82,
+      87
+    ],
+    "weak_jumped": [
+      1,
+      50
+    ]
+  }
+}

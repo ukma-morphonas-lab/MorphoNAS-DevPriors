@@ -1,0 +1,126 @@
+{
+  "analysis_contract": {
+    "cluster_contents": "one grown row and all nested random-control requests; invalid requests remain source-linked through the observed valid-control count",
+    "paired_contrast": "same source-cluster bootstrap draw for both cells",
+    "point_estimator": "Mantel-Haenszel odds ratio over exact (N,E) strata",
+    "primary_uncertainty": "nonparametric source-cluster percentile bootstrap"
+  },
+  "analyzer_sha256": "9b2d837df692be57105630e3c5bb69a0ee5896e8f5d7e800dbb31a7598cd931a",
+  "components": {
+    "pendulum": {
+      "grown": {
+        "competent": 502,
+        "total": 5000
+      },
+      "ne_stratified_mh": {
+        "bootstrap_replicates": 20000,
+        "bootstrap_seed": 20260717,
+        "bootstrap_valid_replicates": 20000,
+        "ln_or": -1.2938676656261683,
+        "n_strata_shared": 1873,
+        "or_mh": 0.2742081839577799,
+        "source_cluster_percentile_ci": [
+          0.24595711795461467,
+          0.3017188112288445
+        ],
+        "standard_rbg_ci": [
+          0.24753353228966146,
+          0.3037573433139429
+        ],
+        "standard_rbg_se_ln": 0.052216039342037356
+      },
+      "random": {
+        "competent": 6247,
+        "nominal_requested": 25000,
+        "total_valid": 18567
+      },
+      "source_stratified_mh_sensitivity": 0.26707745191252835,
+      "task": "pendulum",
+      "threshold": -1322.0,
+      "threshold_provenance": "Dense native reward -(theta^2 + 0.1*theta_dot^2 + 0.001*u^2), 200-step horizon, no termination. 500-net pilot: smooth unimodal blob (NO structured mode), mean -1444, p90 -1322, max -967. Non-weak -1322 = top decile (the LunarLander/MountainCar selectivity rule). No net reaches sustained upright; R here is bar-sensitive (companion to the bar-immune sparse cell). 2026-05-31."
+    },
+    "pendulum_sparse": {
+      "grown": {
+        "competent": 515,
+        "total": 5000
+      },
+      "ne_stratified_mh": {
+        "bootstrap_replicates": 20000,
+        "bootstrap_seed": 20260717,
+        "bootstrap_valid_replicates": 20000,
+        "ln_or": 1.252311562433245,
+        "n_strata_shared": 1873,
+        "or_mh": 3.4984204353219273,
+        "source_cluster_percentile_ci": [
+          3.0765010631822216,
+          4.042878441443533
+        ],
+        "standard_rbg_ci": [
+          3.080381285579351,
+          3.9731917602454176
+        ],
+        "standard_rbg_se_ln": 0.06492883547561885
+      },
+      "random": {
+        "competent": 709,
+        "nominal_requested": 25000,
+        "total_valid": 18567
+      },
+      "source_stratified_mh_sensitivity": 3.599094881398252,
+      "task": "pendulum_sparse",
+      "threshold": 13.0,
+      "threshold_provenance": "Sparse: +1 per step while |theta| < 0.2 rad (upright band), else 0; episode score = upright-step count in [0, 200]. 500-net pilot: median 6.6, p90 13.0, max 28.2. Non-weak 13 = top decile. Bar-immune semantic cell (spinner -> 0). No net sustains upright; structured behaviour reached is partial/transient near-upright occupancy. 2026-05-31 calibration."
+    }
+  },
+  "experiment": "paired_reward_analysis",
+  "immutable_run_config_sha256": "6690e97cd0c0565549c8e3f032e076550dcd7ff6908b121c4bc349a268d3a621",
+  "input_files": {
+    "controls": {
+      "path": "controls.jsonl",
+      "sha256": "ba8643c9617f9ba581d49970f496ea64d322717ba4f5f160d797817786b2b098"
+    },
+    "sources": {
+      "path": "sources.jsonl",
+      "sha256": "c65c15c5e7db2fda20bb8c6b6e3180495435dea30e2a78fb7998705aadf91487"
+    }
+  },
+  "native_acrobot_threshold_sweep": null,
+  "pair": "pendulum",
+  "paired_ratio_of_odds_ratios": {
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 20260717,
+    "bootstrap_valid_replicates": 20000,
+    "descriptive_only": false,
+    "note": null,
+    "point": 12.758264121907398,
+    "source_cluster_percentile_ci": [
+      10.979094125744169,
+      15.23905238008284
+    ]
+  },
+  "pairing_audit": {
+    "historical_topology_role": "audit only; controls use freshly regrown (N,E)",
+    "historical_topology_shape_matches": 5000,
+    "historical_topology_shape_mismatches": 0,
+    "invalid_controls": 6433,
+    "invalid_sources": 0,
+    "lockstep_control_trajectories": 18567,
+    "lockstep_source_trajectories": 5000,
+    "max_valid_controls_per_source": 5,
+    "min_valid_controls_per_source": 0,
+    "requested_controls": 25000,
+    "requested_controls_per_source": 5,
+    "source_rows": 5000,
+    "sources_with_valid_controls": 3845,
+    "trajectory_assertion_failures": 0,
+    "unique_control_trajectory_hashes": 18390,
+    "unique_source_trajectory_hashes": 5000,
+    "valid_controls": 18567,
+    "valid_sources": 5000
+  },
+  "schema_version": 2,
+  "tasks": [
+    "pendulum_sparse",
+    "pendulum"
+  ]
+}

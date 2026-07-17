@@ -1,0 +1,13 @@
+# Canonical paired-reward runtime and analysis environment.
+#
+# This is intentionally smaller and stricter than the development environment
+# in pyproject.toml/uv.lock.  Compile only for CPython 3.12 on Linux x86_64;
+# PyTorch must come from the official CPU wheel index.
+numpy==1.26.4
+scipy==1.16.3
+gymnasium==1.2.2
+networkx==3.5
+torch==2.9.1
+pygame==2.6.1
+matplotlib==3.10.7
+threadpoolctl==3.6.0

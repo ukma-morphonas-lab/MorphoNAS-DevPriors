@@ -1,0 +1,30 @@
+{
+  "experiment": "recurrence_structure",
+  "task": "lunarlander",
+  "n_grown": 5016,
+  "n_random": 14719,
+  "n_strata": 2293,
+  "n_grown_competent": 427,
+  "num_random_per_source": 4,
+  "has_cycle": {
+    "grown_rate": 0.9641148325358851,
+    "random_rate": 0.9996603030097153,
+    "mh_or_grown_vs_random": 0.054492377554330194,
+    "grown_competent_rate": 0.9461358313817331
+  },
+  "largest_scc_frac": {
+    "grown_median": 0.2,
+    "random_median": 0.85,
+    "grown_competent_median": 0.15
+  },
+  "spectral_radius_binary": {
+    "grown_median": 2.7323822371268984,
+    "random_median": 2.7105121561301724,
+    "grown_competent_median": 2.58322406408084
+  },
+  "spectral_radius_weighted": {
+    "grown_median": 0.38905207566849254,
+    "random_median": 1.372413554227332
+  },
+  "elapsed_sec": 313.9617028236389
+}

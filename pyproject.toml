@@ -1,0 +1,39 @@
+[project]
+name = "MorphoNAS-DevPriors"
+version = "0.1.0"
+description = "MorphoNAS-DevPriors: characterizing the recurrent-dynamics prior of morphogenetic development across task families (matched-random control, within-task de-confounders, and the recurrence/topology axes)"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0,<2.0.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.13.0",
+    "jupyter>=1.0.0",
+    "ipykernel>=6.0.0",
+    "torch>=2.7.0",
+    "networkx>=3.4.0",
+    "cma>=4.0.0",
+    "gymnasium>=1.1.0",
+    "box2d-py==2.3.8",
+    "pygame>=2.6.0",
+    "scikit-learn>=1.6.0",
+    "scipy>=1.15.0",
+    "grakel>=0.1.10",
+    "joblib>=1.4.0",
+    "sympy>=1.14.0",
+    "tqdm>=4.67.1",
+    "pyarrow>=23.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "notebook>=7.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["code/MorphoNAS", "code/MorphoNAS_DevPriors"]
+

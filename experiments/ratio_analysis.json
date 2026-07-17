@@ -1,0 +1,480 @@
+{
+  "order": [
+    "cartpole",
+    "acrobot",
+    "lunarlander",
+    "mountaincar"
+  ],
+  "per_task": {
+    "cartpole": {
+      "nonweak": {
+        "ratio": {
+          "point": 8.420348307692306,
+          "lo": 6.589907800593307,
+          "hi": 10.756793617668482,
+          "mn_rate": 0.04724,
+          "mn_ci": [
+            0.045414970385350445,
+            0.04913459462585333
+          ],
+          "rand_rate": 0.0056102192301053,
+          "rand_ci": [
+            0.004404439132995027,
+            0.007143730813612074
+          ],
+          "mn_count": 2362,
+          "mn_n": 50000,
+          "rand_count": 65,
+          "rand_n": 11586
+        },
+        "fisher": {
+          "odds_ratio": 8.788265993211624,
+          "p_one_sided_greater": 1.5507061431205561e-136,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 2362,
+          "n_mn": 50000,
+          "x_rand": 65,
+          "n_rand": 11586
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": 6.853564615384615,
+          "lo": 4.646449684472097,
+          "hi": 10.095800080675511,
+          "mn_rate": 0.01538,
+          "mn_ci": [
+            0.014337991511185887,
+            0.016496468679046413
+          ],
+          "rand_rate": 0.00224408769204212,
+          "rand_ci": [
+            0.0015319410325146843,
+            0.003286197249971897
+          ],
+          "mn_count": 769,
+          "mn_n": 50000,
+          "rand_count": 26,
+          "rand_n": 11586
+        },
+        "fisher": {
+          "odds_ratio": 6.944998695318616,
+          "p_one_sided_greater": 7.385294262782784e-41,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 769,
+          "n_mn": 50000,
+          "x_rand": 26,
+          "n_rand": 11586
+        }
+      }
+    },
+    "acrobot": {
+      "nonweak": {
+        "ratio": {
+          "point": 84.9186,
+          "lo": 28.793355535866418,
+          "hi": 250.1072939697467,
+          "mn_rate": 0.1026,
+          "mn_ci": [
+            0.09449212557428169,
+            0.11131804393164971
+          ],
+          "rand_rate": 0.0012082158679017317,
+          "rand_ci": [
+            0.0004109856071489793,
+            0.0035464274341154706
+          ],
+          "mn_count": 513,
+          "mn_n": 5000,
+          "rand_count": 3,
+          "rand_n": 2483
+        },
+        "fisher": {
+          "odds_ratio": 94.51303766436372,
+          "p_one_sided_greater": 1.484702446452288e-88,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 513,
+          "n_mn": 5000,
+          "x_rand": 3,
+          "n_rand": 2483
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 11.063353377479153,
+          "hi": null,
+          "mn_rate": 0.0174,
+          "mn_ci": [
+            0.014128673436036129,
+            0.021412312481333007
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.0015447140013967015
+          ],
+          "mn_count": 87,
+          "mn_n": 5000,
+          "rand_count": 0,
+          "rand_n": 2483
+        },
+        "fisher": {
+          "odds_ratio": Infinity,
+          "p_one_sided_greater": 4.538694005968779e-16,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 87,
+          "n_mn": 5000,
+          "x_rand": 0,
+          "n_rand": 2483
+        }
+      }
+    },
+    "lunarlander": {
+      "nonweak": {
+        "ratio": {
+          "point": 1.1527694710260499,
+          "lo": 0.9327151208572674,
+          "hi": 1.426395849690199,
+          "mn_rate": 0.08512759170653908,
+          "mn_ci": [
+            0.07771852761955592,
+            0.09317162217059818
+          ],
+          "rand_rate": 0.07384615384615385,
+          "rand_ci": [
+            0.06085110611469839,
+            0.0893523235245385
+          ],
+          "mn_count": 427,
+          "mn_n": 5016,
+          "rand_count": 96,
+          "rand_n": 1300
+        },
+        "fisher": {
+          "odds_ratio": 1.1669844555821893,
+          "p_one_sided_greater": 0.10298632547965132,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 427,
+          "n_mn": 5016,
+          "x_rand": 96,
+          "n_rand": 1300
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 0.0,
+          "hi": null,
+          "mn_rate": 0.0,
+          "mn_ci": [
+            5.421010862427522e-20,
+            0.0007652550089891873
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.002946262212101055
+          ],
+          "mn_count": 0,
+          "mn_n": 5016,
+          "rand_count": 0,
+          "rand_n": 1300
+        },
+        "fisher": {
+          "odds_ratio": NaN,
+          "p_one_sided_greater": 1.0,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 0,
+          "n_mn": 5016,
+          "x_rand": 0,
+          "n_rand": 1300
+        }
+      }
+    },
+    "mountaincar": {
+      "nonweak": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 2.634623343489242,
+          "hi": null,
+          "mn_rate": 0.020933014354066987,
+          "mn_ci": [
+            0.017322416724073593,
+            0.025276828804874175
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.007826272112228853
+          ],
+          "mn_count": 105,
+          "mn_n": 5016,
+          "rand_count": 0,
+          "rand_n": 487
+        },
+        "fisher": {
+          "odds_ratio": Infinity,
+          "p_one_sided_greater": 5.397490949979095e-05,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 105,
+          "n_mn": 5016,
+          "x_rand": 0,
+          "n_rand": 487
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 0.0144525633532039,
+          "hi": null,
+          "mn_rate": 0.00019936204146730463,
+          "mn_ci": [
+            3.5193162536168105e-05,
+            0.001128480803785958
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.007826272112228853
+          ],
+          "mn_count": 1,
+          "mn_n": 5016,
+          "rand_count": 0,
+          "rand_n": 487
+        },
+        "fisher": {
+          "odds_ratio": Infinity,
+          "p_one_sided_greater": 0.9115028166454661,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 1,
+          "n_mn": 5016,
+          "x_rand": 0,
+          "n_rand": 487
+        }
+      }
+    }
+  },
+  "pairwise_ror": {
+    "nonweak": {
+      "acrobot_vs_cartpole": {
+        "ror": {
+          "ror_point": 10.0849272377989,
+          "ror_ci": [
+            3.1609724273042636,
+            32.17546490224679
+          ],
+          "ln_ror": 2.3110419564866325,
+          "se_ln_ror": 0.591930390159544,
+          "z": 3.904246166282717,
+          "p_two_sided": 9.451953672443583e-05,
+          "rr_a": 84.91860000000001,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": true
+        },
+        "interaction": {
+          "interaction_or": 10.754458016788414,
+          "or_a": 94.51303766436372,
+          "or_b": 8.788265993211622,
+          "ln_interaction": 2.3753203678458403,
+          "se": 0.5931479731166782,
+          "z": 4.0045999910693295,
+          "p_two_sided": 6.212251045271331e-05,
+          "continuity_correction": 0.0,
+          "significant_growth": true
+        }
+      },
+      "lunarlander_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.1369028250260089,
+          "ror_ci": [
+            0.0989186058856351,
+            0.1894727825195094
+          ],
+          "ln_ror": -1.988483911210297,
+          "se_ln_ror": 0.165806117425187,
+          "z": -11.99282597101712,
+          "p_two_sided": 3.874570588699419e-33,
+          "rr_a": 1.1527694710260499,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.13278893202408878,
+          "or_a": 1.1669844555821893,
+          "or_b": 8.788265993211622,
+          "ln_interaction": -2.018994388605143,
+          "se": 0.17240313019487338,
+          "z": -11.71089171248226,
+          "p_two_sided": 1.1209445420924004e-31,
+          "continuity_correction": 0.0,
+          "significant_growth": false
+        }
+      },
+      "mountaincar_vs_cartpole": {
+        "ror": {
+          "ror_point": 2.437407369075046,
+          "ror_ci": [
+            0.15006029445876126,
+            39.59045065351379
+          ],
+          "ln_ror": 0.8909349207370041,
+          "se_ln_ror": 1.4222980857396545,
+          "z": 0.6264052027277254,
+          "p_two_sided": 0.5310491978964723,
+          "rr_a": 20.52381901534782,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 2.4008303022459767,
+          "or_a": 20.94319454341851,
+          "or_b": 8.723313148716155,
+          "ln_interaction": 0.8758146367929478,
+          "se": 1.4239142532115892,
+          "z": 0.6150754055713525,
+          "p_two_sided": 0.5385049234565358,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      }
+    },
+    "solved": {
+      "acrobot_vs_cartpole": {
+        "ror": {
+          "ror_point": 12.682833000769284,
+          "ror_ci": [
+            0.7661926324136579,
+            209.9397020024583
+          ],
+          "ln_ror": 2.540249346827532,
+          "se_ln_ror": 1.431950296778675,
+          "z": 1.7739787145839445,
+          "p_two_sided": 0.07606667119327341,
+          "rr_a": 86.92261547690462,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 12.972239329959772,
+          "or_a": 88.45273226824055,
+          "or_b": 6.818617049714488,
+          "ln_interaction": 2.562811638009673,
+          "se": 1.4321930588238778,
+          "z": 1.7894316846600717,
+          "p_two_sided": 0.0735453203771209,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      },
+      "lunarlander_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.03783699903224742,
+          "ror_ci": [
+            0.0007367169471407039,
+            1.9432680370971123
+          ],
+          "ln_ror": -3.2744678447021958,
+          "se_ln_ror": 2.0096486398625153,
+          "z": -1.6293733042439746,
+          "p_two_sided": 0.10323401658132554,
+          "rr_a": 0.25931831771975283,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.038020098691916686,
+          "or_a": 0.2592444931725306,
+          "or_b": 6.818617049714488,
+          "ln_interaction": -3.2696403461357257,
+          "se": 2.010002608221943,
+          "z": -1.6266846285478522,
+          "p_two_sided": 0.10380409505922582,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      },
+      "mountaincar_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.042577530040899494,
+          "ror_ci": [
+            0.0016961288578549996,
+            1.0688138793159299
+          ],
+          "ln_ror": -3.156428628693444,
+          "se_ln_ror": 1.6444068175327318,
+          "z": -1.919493762151479,
+          "p_two_sided": 0.054921874974846276,
+          "rr_a": 0.2918078532987841,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.0427646911554113,
+          "or_a": 0.29159605223806195,
+          "or_b": 6.818617049714488,
+          "ln_interaction": -3.152042489876293,
+          "se": 1.645618284565773,
+          "z": -1.9154153301766565,
+          "p_two_sided": 0.055439557623831064,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      }
+    }
+  },
+  "trend": {
+    "nonweak": {
+      "ratios": [
+        8.420348307692306,
+        84.9186,
+        1.1527694710260499,
+        20.43062200956938
+      ],
+      "spearman_rho": 0.0,
+      "spearman_p": 1.0,
+      "log_rr_slope": -0.16403748872472265,
+      "log_rr_slope_se": 0.9788121720968336
+    },
+    "solved": {
+      "ratios": [
+        6.853564615384615,
+        86.44319999999999,
+        0.0,
+        0.1945773524720893
+      ],
+      "spearman_rho": -0.6000000000000001,
+      "spearman_p": 0.4,
+      "log_rr_slope": NaN,
+      "log_rr_slope_se": NaN
+    }
+  }
+}

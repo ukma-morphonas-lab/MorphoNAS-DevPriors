@@ -1,0 +1,152 @@
+{
+  "experiment": "matched_random_control",
+  "task": "pendulum_sparse",
+  "env_name": "Pendulum-v1",
+  "engine": "vendored code/MorphoNAS (rules == MorphoNAS-work@v1, commit 72902afc)",
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_run": true
+  },
+  "config": {
+    "min_stratum": "weak",
+    "num_random_per_source": 5,
+    "rollouts": 20,
+    "weight_range": [
+      0.01,
+      1.0
+    ],
+    "max_retries": 100,
+    "seed_mode": "paired",
+    "base_seed": 10200000,
+    "n_sources": 5000,
+    "strata_provisional": false
+  },
+  "n_random_total": 25000,
+  "n_random_valid": 18568,
+  "valid_rate": 0.74272,
+  "strata": {
+    "weak": 17832,
+    "low_mid": 613,
+    "high_mid": 107,
+    "near_perfect": 16,
+    "perfect": 0
+  },
+  "random_nonweak_count": 736,
+  "random_solved_count": 0,
+  "morphonas": {
+    "n_total": 5000,
+    "stratum_counts": {
+      "weak": 4485,
+      "low_mid": 417,
+      "high_mid": 85,
+      "near_perfect": 13,
+      "perfect": 0
+    },
+    "nonweak_count": 515,
+    "nonweak_rate": 0.103,
+    "solved_count": 0,
+    "solved_rate": 0.0
+  },
+  "elapsed_sec": 1058.1934356689453,
+  "ratio_nonweak": {
+    "point": 2.5985108695652173,
+    "lo": 2.331764867759094,
+    "hi": 2.8947723139290993,
+    "mn_rate": 0.103,
+    "mn_ci": [
+      0.09487734390886228,
+      0.11173221143551308
+    ],
+    "rand_rate": 0.03963808703145196,
+    "rand_ci": [
+      0.03692565093539915,
+      0.04254096857527642
+    ],
+    "mn_count": 515,
+    "mn_n": 5000,
+    "rand_count": 736,
+    "rand_n": 18568
+  },
+  "ratio_solved": {
+    "point": Infinity,
+    "lo": 0.0,
+    "hi": null,
+    "mn_rate": 0.0,
+    "mn_ci": [
+      5.421010862427522e-20,
+      0.0007677019450571243
+    ],
+    "rand_rate": 0.0,
+    "rand_ci": [
+      1.3552527156068805e-20,
+      0.00020684318403276186
+    ],
+    "mn_count": 0,
+    "mn_n": 5000,
+    "rand_count": 0,
+    "rand_n": 18568
+  },
+  "cartpole_reference": {
+    "nonweak": {
+      "point": 8.420348307692306,
+      "lo": 6.589907800593307,
+      "hi": 10.756793617668482,
+      "mn_rate": 0.04724,
+      "mn_ci": [
+        0.045414970385350445,
+        0.04913459462585333
+      ],
+      "rand_rate": 0.0056102192301053,
+      "rand_ci": [
+        0.004404439132995027,
+        0.007143730813612074
+      ],
+      "mn_count": 2362,
+      "mn_n": 50000,
+      "rand_count": 65,
+      "rand_n": 11586
+    },
+    "solved": {
+      "point": 6.853564615384615,
+      "lo": 4.646449684472097,
+      "hi": 10.095800080675511,
+      "mn_rate": 0.01538,
+      "mn_ci": [
+        0.014337991511185887,
+        0.016496468679046413
+      ],
+      "rand_rate": 0.00224408769204212,
+      "rand_ci": [
+        0.0015319410325146843,
+        0.003286197249971897
+      ],
+      "mn_count": 769,
+      "mn_n": 50000,
+      "rand_count": 26,
+      "rand_n": 11586
+    }
+  },
+  "verdict": {
+    "nonweak": {
+      "verdict": "shrinks",
+      "acrobot_ci_lo_vs_ref_point": -6.0885834399332115,
+      "cis_overlap": false,
+      "reference_point": 8.420348307692306,
+      "reference_ci": [
+        6.589907800593307,
+        10.756793617668482
+      ]
+    },
+    "solved": {
+      "verdict": "persists",
+      "acrobot_ci_lo_vs_ref_point": -6.853564615384615,
+      "cis_overlap": true,
+      "reference_point": 6.853564615384615,
+      "reference_ci": [
+        4.646449684472097,
+        10.095800080675511
+      ]
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "anchor_manifest": "reproduction/manifests/pendulum.jsonl",
+  "anchor_manifest_sha256": "cf19ad3cfc155616b0ed3ce46a2024a5b0aa405dfc6c7029f28481c6660bdcac",
+  "canonical_environment": true,
+  "completed_at": "2026-07-18 16:49:50 +0000",
+  "control_base_seed": 102000000,
+  "control_rows": 25000,
+  "elapsed_sec": 2410.788,
+  "engine_weight_channel": "saturating (v1.1 default)",
+  "experiment": "paired_reward",
+  "historical_topology_shape_matches": 5000,
+  "historical_topology_shape_mismatches": 0,
+  "immutable_config": {
+    "anchor_manifest": "reproduction/manifests/pendulum.jsonl",
+    "anchor_manifest_sha256": "cf19ad3cfc155616b0ed3ce46a2024a5b0aa405dfc6c7029f28481c6660bdcac",
+    "canonical_environment": true,
+    "control_base_seed": 102000000,
+    "control_seed_formula": "base + pair_source_id * 100 + k",
+    "engine_weight_channel": "saturating (v1.1 default)",
+    "environment_lock_sha256": "95d167df327988fc15183c6a10916e29b3e3d9fc66448f50feb0a1faffe0670e",
+    "max_retries": 100,
+    "num_random_per_source": 5,
+    "pair": "pendulum",
+    "requested_sources": 5000,
+    "requirements_sha256": "dcaddb30e1bb80334f5e10899f3ad024ceb35d2358ef742275536ca6866cacc8",
+    "rollouts": 20,
+    "runner_sha256": "35ebc86665f40b7258620efa91b46c2bba88c2172125c178edc7350544181ced",
+    "schema_version": 2,
+    "selected_source_ids": null,
+    "source_selection": "manifest order; exact committed genome JSON is the scientific input",
+    "tasks": [
+      "pendulum_sparse",
+      "pendulum"
+    ],
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "max_retries": 100,
+  "max_workers": 32,
+  "num_random_per_source": 5,
+  "pair": "pendulum",
+  "pairing_contract": {
+    "environment_observations_compared_exactly_each_step": true,
+    "graph_constructed_once": true,
+    "policy_propagated_once_per_step": true,
+    "reward_not_network_input": true,
+    "termination_compared_exactly_each_step": true
+  },
+  "requested_sources": 5000,
+  "rollouts": 20,
+  "runner_sha256": "35ebc86665f40b7258620efa91b46c2bba88c2172125c178edc7350544181ced",
+  "schema_version": 2,
+  "science_file_sha256": {
+    "controls.jsonl": "ba8643c9617f9ba581d49970f496ea64d322717ba4f5f160d797817786b2b098",
+    "sources.jsonl": "c65c15c5e7db2fda20bb8c6b6e3180495435dea30e2a78fb7998705aadf91487"
+  },
+  "selected_source_ids": null,
+  "source_rows": 5000,
+  "source_selection": "manifest order; exact committed genome JSON is the scientific input",
+  "started_at": "2026-07-18 16:09:39 +0000",
+  "status": "complete",
+  "task_specs": {
+    "pendulum": {
+      "bounds": [
+        {
+          "high": -1322.0,
+          "low": "-inf",
+          "name": "weak"
+        },
+        {
+          "high": -1171.0,
+          "low": -1322.0,
+          "name": "low_mid"
+        },
+        {
+          "high": -967.0,
+          "low": -1171.0,
+          "name": "high_mid"
+        },
+        {
+          "high": -300.0,
+          "low": -967.0,
+          "name": "near_perfect"
+        },
+        {
+          "high": "inf",
+          "low": -300.0,
+          "name": "perfect"
+        }
+      ],
+      "note": "Dense native reward -(theta^2 + 0.1*theta_dot^2 + 0.001*u^2), 200-step horizon, no termination. 500-net pilot: smooth unimodal blob (NO structured mode), mean -1444, p90 -1322, max -967. Non-weak -1322 = top decile (the LunarLander/MountainCar selectivity rule). No net reaches sustained upright; R here is bar-sensitive (companion to the bar-immune sparse cell). 2026-05-31."
+    },
+    "pendulum_sparse": {
+      "bounds": [
+        {
+          "high": 13.0,
+          "low": "-inf",
+          "name": "weak"
+        },
+        {
+          "high": 17.0,
+          "low": 13.0,
+          "name": "low_mid"
+        },
+        {
+          "high": 28.0,
+          "low": 17.0,
+          "name": "high_mid"
+        },
+        {
+          "high": 100.0,
+          "low": 28.0,
+          "name": "near_perfect"
+        },
+        {
+          "high": "inf",
+          "low": 100.0,
+          "name": "perfect"
+        }
+      ],
+      "note": "Sparse: +1 per step while |theta| < 0.2 rad (upright band), else 0; episode score = upright-step count in [0, 200]. 500-net pilot: median 6.6, p90 13.0, max 28.2. Non-weak 13 = top decile. Bar-immune semantic cell (spinner -> 0). No net sustains upright; structured behaviour reached is partial/transient near-upright occupancy. 2026-05-31 calibration."
+    }
+  },
+  "tasks": [
+    "pendulum_sparse",
+    "pendulum"
+  ],
+  "trajectory_assertion_failures": 0,
+  "valid_control_rows": 18567,
+  "valid_source_rows": 5000,
+  "weight_range": [
+    0.01,
+    1.0
+  ]
+}

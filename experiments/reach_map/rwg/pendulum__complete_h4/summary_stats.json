@@ -1,0 +1,98 @@
+{
+  "experiment": "E3_rwg_axis",
+  "task": "pendulum",
+  "env_name": "Pendulum-v1",
+  "reference_arch": {
+    "topology": "complete",
+    "hidden": 4,
+    "K": 10,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "num_samples": 5000,
+  "n_valid": 5000,
+  "rollouts": 20,
+  "eval_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "base_seed": 20000000,
+  "strata": {
+    "weak": 2726,
+    "low_mid": 1709,
+    "high_mid": 565,
+    "near_perfect": 0,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -1322.0
+    ],
+    "low_mid": [
+      -1322.0,
+      -1171.0
+    ],
+    "high_mid": [
+      -1171.0,
+      -967.0
+    ],
+    "near_perfect": [
+      -967.0,
+      -300.0
+    ],
+    "perfect": [
+      -300.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": false,
+  "nonweak_count": 2274,
+  "nonweak_rate": 0.4548,
+  "nonweak_ci": [
+    0.4410376625987465,
+    0.4686317376570867
+  ],
+  "solved_count": 0,
+  "solved_rate": 0.0,
+  "r_axis_inv_nonweak": 2.198768689533861,
+  "reward_summary": {
+    "mean": -1377.0529368483024,
+    "std": 164.71588972580824,
+    "median": -1364.4677311205505,
+    "min": -1635.989022742827,
+    "max": -1042.8919202862926,
+    "percentiles": {
+      "1": -1618.3547269276082,
+      "5": -1603.6646785635387,
+      "10": -1587.1800020172086,
+      "25": -1532.036177908399,
+      "50": -1364.4677311205505,
+      "75": -1222.8311689505774,
+      "90": -1162.816711852455,
+      "95": -1135.326475557293,
+      "99": -1106.0317315355094
+    }
+  },
+  "elapsed_sec": 52.236767053604126
+}

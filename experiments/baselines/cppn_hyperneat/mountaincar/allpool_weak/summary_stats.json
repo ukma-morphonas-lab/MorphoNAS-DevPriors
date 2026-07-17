@@ -1,0 +1,103 @@
+{
+  "experiment": "baseline_prior",
+  "arm": "cppn_hyperneat",
+  "task": "mountaincar",
+  "env_name": "MountainCar-v0",
+  "engine": "vendored code/MorphoNAS (canonical ruleset + per-episode reset + W[post,pre] fix d378b8e06, no plasticity)",
+  "encoding_config": {
+    "encoding": "cppn_hyperneat",
+    "cppn_hidden": 4,
+    "activations": [
+      "identity",
+      "sin",
+      "gaussian",
+      "tanh",
+      "abs"
+    ],
+    "connectivity": "recurrent",
+    "weight_mode": "uniform",
+    "ne_matched": true,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_run": true
+  },
+  "config": {
+    "min_stratum": "weak",
+    "num_random_per_source": 5,
+    "rollouts": 20,
+    "base_seed": 909200000,
+    "n_sources": 5016,
+    "strata_provisional": true
+  },
+  "n_random_total": 25080,
+  "n_random_valid": 24410,
+  "valid_rate": 0.9732854864433812,
+  "strata": {
+    "weak": 24237,
+    "low_mid": 46,
+    "high_mid": 70,
+    "near_perfect": 57,
+    "perfect": 0
+  },
+  "random_nonweak_count": 173,
+  "random_solved_count": 0,
+  "morphonas": {
+    "n_total": 5016,
+    "stratum_counts": {
+      "weak": 4911,
+      "low_mid": 42,
+      "high_mid": 36,
+      "near_perfect": 26,
+      "perfect": 1
+    },
+    "nonweak_count": 105,
+    "nonweak_rate": 0.020933014354066987,
+    "solved_count": 1,
+    "solved_rate": 0.00019936204146730463
+  },
+  "elapsed_sec": 845.7665283679962,
+  "ratio_nonweak": {
+    "point": 2.9536120253339604,
+    "lo": 2.3232173865658194,
+    "hi": 3.756153827181496,
+    "mn_rate": 0.020933014354066987,
+    "mn_ci": [
+      0.017322416724073593,
+      0.025276828804874175
+    ],
+    "rand_rate": 0.0070872593199508395,
+    "rand_ci": [
+      0.006109699479298633,
+      0.008219936412323691
+    ],
+    "mn_count": 105,
+    "mn_n": 5016,
+    "rand_count": 173,
+    "rand_n": 24410
+  },
+  "ratio_solved": {
+    "point": Infinity,
+    "lo": 0.7188524604796607,
+    "hi": null,
+    "mn_rate": 0.00019936204146730463,
+    "mn_ci": [
+      3.5193162536168105e-05,
+      0.001128480803785958
+    ],
+    "rand_rate": 0.0,
+    "rand_ci": [
+      1.3552527156068805e-20,
+      0.00015734757789648095
+    ],
+    "mn_count": 1,
+    "mn_n": 5016,
+    "rand_count": 0,
+    "rand_n": 24410
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "name": "MorphoNAS-DevPriors canonical paired-reward CPU environment",
+  "platform": {
+    "libc": "glibc",
+    "libc_version": "2.39",
+    "machine": "x86_64",
+    "python_implementation": "CPython",
+    "python_version": "3.12.3",
+    "system": "Linux"
+  },
+  "packages": {
+    "gymnasium": "1.2.2",
+    "matplotlib": "3.10.7",
+    "networkx": "3.5",
+    "numpy": "1.26.4",
+    "pygame": "2.6.1",
+    "scipy": "1.16.3",
+    "threadpoolctl": "3.6.0",
+    "torch": "2.9.1+cpu"
+  },
+  "requirements": {
+    "path": "reproduction/requirements-linux-x86_64-py312.txt",
+    "sha256": "dcaddb30e1bb80334f5e10899f3ad024ceb35d2358ef742275536ca6866cacc8"
+  },
+  "runtime_environment": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "MKL_CBWR": "COMPATIBLE",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "torch": {
+    "cuda_available": false,
+    "deterministic_algorithms": true,
+    "device": "cpu",
+    "interop_threads": 1,
+    "mkldnn_enabled": false,
+    "threads": 1
+  }
+}

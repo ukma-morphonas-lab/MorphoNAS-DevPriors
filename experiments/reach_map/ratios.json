@@ -1,0 +1,988 @@
+{
+  "order": [
+    "cartpole",
+    "acrobot",
+    "lunarlander",
+    "mountaincar",
+    "acrobot_shaped",
+    "mountaincar_shaped",
+    "pendulum",
+    "pendulum_sparse"
+  ],
+  "per_task": {
+    "cartpole": {
+      "nonweak": {
+        "ratio": {
+          "point": 8.420348307692306,
+          "lo": 6.589907800593307,
+          "hi": 10.756793617668482,
+          "mn_rate": 0.04724,
+          "mn_ci": [
+            0.045414970385350445,
+            0.04913459462585333
+          ],
+          "rand_rate": 0.0056102192301053,
+          "rand_ci": [
+            0.004404439132995027,
+            0.007143730813612074
+          ],
+          "mn_count": 2362,
+          "mn_n": 50000,
+          "rand_count": 65,
+          "rand_n": 11586
+        },
+        "fisher": {
+          "odds_ratio": 8.788265993211624,
+          "p_one_sided_greater": 1.5507061431205561e-136,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 2362,
+          "n_mn": 50000,
+          "x_rand": 65,
+          "n_rand": 11586
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": 6.853564615384615,
+          "lo": 4.646449684472097,
+          "hi": 10.095800080675511,
+          "mn_rate": 0.01538,
+          "mn_ci": [
+            0.014337991511185887,
+            0.016496468679046413
+          ],
+          "rand_rate": 0.00224408769204212,
+          "rand_ci": [
+            0.0015319410325146843,
+            0.003286197249971897
+          ],
+          "mn_count": 769,
+          "mn_n": 50000,
+          "rand_count": 26,
+          "rand_n": 11586
+        },
+        "fisher": {
+          "odds_ratio": 6.944998695318616,
+          "p_one_sided_greater": 7.385294262782784e-41,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 769,
+          "n_mn": 50000,
+          "x_rand": 26,
+          "n_rand": 11586
+        }
+      }
+    },
+    "acrobot": {
+      "nonweak": {
+        "ratio": {
+          "point": 84.9186,
+          "lo": 28.793355535866418,
+          "hi": 250.1072939697467,
+          "mn_rate": 0.1026,
+          "mn_ci": [
+            0.09449212557428169,
+            0.11131804393164971
+          ],
+          "rand_rate": 0.0012082158679017317,
+          "rand_ci": [
+            0.0004109856071489793,
+            0.0035464274341154706
+          ],
+          "mn_count": 513,
+          "mn_n": 5000,
+          "rand_count": 3,
+          "rand_n": 2483
+        },
+        "fisher": {
+          "odds_ratio": 94.51303766436372,
+          "p_one_sided_greater": 1.484702446452288e-88,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 513,
+          "n_mn": 5000,
+          "x_rand": 3,
+          "n_rand": 2483
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 11.063353377479153,
+          "hi": null,
+          "mn_rate": 0.0174,
+          "mn_ci": [
+            0.014128673436036129,
+            0.021412312481333007
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.0015447140013967015
+          ],
+          "mn_count": 87,
+          "mn_n": 5000,
+          "rand_count": 0,
+          "rand_n": 2483
+        },
+        "fisher": {
+          "odds_ratio": Infinity,
+          "p_one_sided_greater": 4.538694005968779e-16,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 87,
+          "n_mn": 5000,
+          "x_rand": 0,
+          "n_rand": 2483
+        }
+      }
+    },
+    "lunarlander": {
+      "nonweak": {
+        "ratio": {
+          "point": 1.1527694710260499,
+          "lo": 0.9327151208572674,
+          "hi": 1.426395849690199,
+          "mn_rate": 0.08512759170653908,
+          "mn_ci": [
+            0.07771852761955592,
+            0.09317162217059818
+          ],
+          "rand_rate": 0.07384615384615385,
+          "rand_ci": [
+            0.06085110611469839,
+            0.0893523235245385
+          ],
+          "mn_count": 427,
+          "mn_n": 5016,
+          "rand_count": 96,
+          "rand_n": 1300
+        },
+        "fisher": {
+          "odds_ratio": 1.1669844555821893,
+          "p_one_sided_greater": 0.10298632547965132,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 427,
+          "n_mn": 5016,
+          "x_rand": 96,
+          "n_rand": 1300
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 0.0,
+          "hi": null,
+          "mn_rate": 0.0,
+          "mn_ci": [
+            5.421010862427522e-20,
+            0.0007652550089891873
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.002946262212101055
+          ],
+          "mn_count": 0,
+          "mn_n": 5016,
+          "rand_count": 0,
+          "rand_n": 1300
+        },
+        "fisher": {
+          "odds_ratio": NaN,
+          "p_one_sided_greater": 1.0,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 0,
+          "n_mn": 5016,
+          "x_rand": 0,
+          "n_rand": 1300
+        }
+      }
+    },
+    "mountaincar": {
+      "nonweak": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 2.634623343489242,
+          "hi": null,
+          "mn_rate": 0.020933014354066987,
+          "mn_ci": [
+            0.017322416724073593,
+            0.025276828804874175
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.007826272112228853
+          ],
+          "mn_count": 105,
+          "mn_n": 5016,
+          "rand_count": 0,
+          "rand_n": 487
+        },
+        "fisher": {
+          "odds_ratio": Infinity,
+          "p_one_sided_greater": 5.397490949979095e-05,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 105,
+          "n_mn": 5016,
+          "x_rand": 0,
+          "n_rand": 487
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 0.0144525633532039,
+          "hi": null,
+          "mn_rate": 0.00019936204146730463,
+          "mn_ci": [
+            3.5193162536168105e-05,
+            0.001128480803785958
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.007826272112228853
+          ],
+          "mn_count": 1,
+          "mn_n": 5016,
+          "rand_count": 0,
+          "rand_n": 487
+        },
+        "fisher": {
+          "odds_ratio": Infinity,
+          "p_one_sided_greater": 0.9115028166454661,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 1,
+          "n_mn": 5016,
+          "x_rand": 0,
+          "n_rand": 487
+        }
+      }
+    },
+    "acrobot_shaped": {
+      "nonweak": {
+        "ratio": {
+          "point": 63.421182593500106,
+          "lo": 49.04129900570118,
+          "hi": 81.90342108123878,
+          "mn_rate": 0.12804148384523334,
+          "mn_ci": [
+            0.11907672903894492,
+            0.13757575179160045
+          ],
+          "rand_rate": 0.0020189072264060245,
+          "rand_ci": [
+            0.0015784458643997086,
+            0.0025819603779152064
+          ],
+          "mn_count": 642,
+          "mn_n": 5014,
+          "rand_count": 63,
+          "rand_n": 31205
+        },
+        "fisher": {
+          "odds_ratio": 72.58733063216137,
+          "p_one_sided_greater": 0.0,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 642,
+          "n_mn": 5014,
+          "x_rand": 63,
+          "n_rand": 31205
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": 108.2901874750698,
+          "lo": 69.19483946789418,
+          "hi": 168.95883558342453,
+          "mn_rate": 0.06940566414040686,
+          "mn_ci": [
+            0.06269577490818928,
+            0.07677484499162168
+          ],
+          "rand_rate": 0.0006409229290177856,
+          "rand_ci": [
+            0.0004149551766146184,
+            0.0009898216997888797
+          ],
+          "mn_count": 348,
+          "mn_n": 5014,
+          "rand_count": 20,
+          "rand_n": 31205
+        },
+        "fisher": {
+          "odds_ratio": 116.29211315902272,
+          "p_one_sided_greater": 1.050026272456847e-272,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 348,
+          "n_mn": 5014,
+          "x_rand": 20,
+          "n_rand": 31205
+        }
+      }
+    },
+    "mountaincar_shaped": {
+      "nonweak": {
+        "ratio": {
+          "point": 0.2709774948983426,
+          "lo": 0.2484186560437903,
+          "hi": 0.29540142185009627,
+          "mn_rate": 0.09613083366573594,
+          "mn_ci": [
+            0.08827822619833889,
+            0.10460181330935783
+          ],
+          "rand_rate": 0.35475578406169667,
+          "rand_ci": [
+            0.34859079673631976,
+            0.3609693841971835
+          ],
+          "mn_count": 482,
+          "mn_n": 5014,
+          "rand_count": 8142,
+          "rand_n": 22951
+        },
+        "fisher": {
+          "odds_ratio": 0.19344244470880181,
+          "p_one_sided_greater": 1.0,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 482,
+          "n_mn": 5014,
+          "x_rand": 8142,
+          "n_rand": 22951
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": 97.65084430261932,
+          "lo": 32.03338484910254,
+          "hi": 292.56351518131515,
+          "mn_rate": 0.012764260071798962,
+          "mn_ci": [
+            0.010008976016401435,
+            0.016265560535353198
+          ],
+          "rand_rate": 0.00013071325868153894,
+          "rand_ci": [
+            4.4455277072316934e-05,
+            0.0003842760142480341
+          ],
+          "mn_count": 64,
+          "mn_n": 5014,
+          "rand_count": 3,
+          "rand_n": 22951
+        },
+        "fisher": {
+          "odds_ratio": 98.90047138047139,
+          "p_one_sided_greater": 3.270893868066737e-44,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 64,
+          "n_mn": 5014,
+          "x_rand": 3,
+          "n_rand": 22951
+        }
+      }
+    },
+    "pendulum": {
+      "nonweak": {
+        "ratio": {
+          "point": 0.25682071973827697,
+          "lo": 0.23312767143435406,
+          "hi": 0.28303967545560355,
+          "mn_rate": 0.1006,
+          "mn_ci": [
+            0.09256663145562494,
+            0.10924660885808668
+          ],
+          "rand_rate": 0.3917129431866724,
+          "rand_ci": [
+            0.37213215791348586,
+            0.4116485330612514
+          ],
+          "mn_count": 503,
+          "mn_n": 5000,
+          "rand_count": 917,
+          "rand_n": 2341
+        },
+        "fisher": {
+          "odds_ratio": 0.17369437373613186,
+          "p_one_sided_greater": 1.0,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 503,
+          "n_mn": 5000,
+          "x_rand": 917,
+          "n_rand": 2341
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 0.0,
+          "hi": null,
+          "mn_rate": 0.0,
+          "mn_ci": [
+            5.421010862427522e-20,
+            0.0007677019450571243
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.0016382595105709768
+          ],
+          "mn_count": 0,
+          "mn_n": 5000,
+          "rand_count": 0,
+          "rand_n": 2341
+        },
+        "fisher": {
+          "odds_ratio": NaN,
+          "p_one_sided_greater": 1.0,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 0,
+          "n_mn": 5000,
+          "x_rand": 0,
+          "n_rand": 2341
+        }
+      }
+    },
+    "pendulum_sparse": {
+      "nonweak": {
+        "ratio": {
+          "point": 2.064542832909245,
+          "lo": 1.8698257996097825,
+          "hi": 2.2787445070898453,
+          "mn_rate": 0.103,
+          "mn_ci": [
+            0.09487734390886228,
+            0.11173221143551308
+          ],
+          "rand_rate": 0.049889979688557885,
+          "rand_ci": [
+            0.04718657529699696,
+            0.05273969400615387
+          ],
+          "mn_count": 515,
+          "mn_n": 5000,
+          "rand_count": 1179,
+          "rand_n": 23632
+        },
+        "fisher": {
+          "odds_ratio": 2.1867813075911315,
+          "p_one_sided_greater": 1.5565817520800188e-41,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 515,
+          "n_mn": 5000,
+          "x_rand": 1179,
+          "n_rand": 23632
+        }
+      },
+      "solved": {
+        "ratio": {
+          "point": Infinity,
+          "lo": 0.0,
+          "hi": null,
+          "mn_rate": 0.0,
+          "mn_ci": [
+            5.421010862427522e-20,
+            0.0007677019450571243
+          ],
+          "rand_rate": 0.0,
+          "rand_ci": [
+            0.0,
+            0.00016252684836234277
+          ],
+          "mn_count": 0,
+          "mn_n": 5000,
+          "rand_count": 0,
+          "rand_n": 23632
+        },
+        "fisher": {
+          "odds_ratio": NaN,
+          "p_one_sided_greater": 1.0,
+          "method": "fisher_exact"
+        },
+        "counts": {
+          "x_mn": 0,
+          "n_mn": 5000,
+          "x_rand": 0,
+          "n_rand": 23632
+        }
+      }
+    }
+  },
+  "pairwise_ror": {
+    "nonweak": {
+      "acrobot_vs_cartpole": {
+        "ror": {
+          "ror_point": 10.0849272377989,
+          "ror_ci": [
+            3.1609724273042636,
+            32.17546490224679
+          ],
+          "ln_ror": 2.3110419564866325,
+          "se_ln_ror": 0.591930390159544,
+          "z": 3.904246166282717,
+          "p_two_sided": 9.451953672443586e-05,
+          "rr_a": 84.91860000000001,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": true
+        },
+        "interaction": {
+          "interaction_or": 10.754458016788414,
+          "or_a": 94.51303766436372,
+          "or_b": 8.788265993211622,
+          "ln_interaction": 2.3753203678458403,
+          "se": 0.5931479731166782,
+          "z": 4.0045999910693295,
+          "p_two_sided": 6.212251045271333e-05,
+          "continuity_correction": 0.0,
+          "significant_growth": true
+        }
+      },
+      "lunarlander_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.1369028250260089,
+          "ror_ci": [
+            0.0989186058856351,
+            0.1894727825195094
+          ],
+          "ln_ror": -1.988483911210297,
+          "se_ln_ror": 0.165806117425187,
+          "z": -11.99282597101712,
+          "p_two_sided": 3.874570588699418e-33,
+          "rr_a": 1.1527694710260499,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.13278893202408878,
+          "or_a": 1.1669844555821893,
+          "or_b": 8.788265993211622,
+          "ln_interaction": -2.018994388605143,
+          "se": 0.17240313019487338,
+          "z": -11.71089171248226,
+          "p_two_sided": 1.1209445420924004e-31,
+          "continuity_correction": 0.0,
+          "significant_growth": false
+        }
+      },
+      "mountaincar_vs_cartpole": {
+        "ror": {
+          "ror_point": 2.437407369075046,
+          "ror_ci": [
+            0.15006029445876126,
+            39.59045065351379
+          ],
+          "ln_ror": 0.8909349207370041,
+          "se_ln_ror": 1.4222980857396545,
+          "z": 0.6264052027277254,
+          "p_two_sided": 0.5310491978964722,
+          "rr_a": 20.52381901534782,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 2.4008303022459767,
+          "or_a": 20.94319454341851,
+          "or_b": 8.723313148716155,
+          "ln_interaction": 0.8758146367929478,
+          "se": 1.4239142532115892,
+          "z": 0.6150754055713525,
+          "p_two_sided": 0.5385049234565357,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      },
+      "acrobot_shaped_vs_cartpole": {
+        "ror": {
+          "ror_point": 7.531895389120956,
+          "ror_ci": [
+            5.278473486699867,
+            10.747320848651096
+          ],
+          "ln_ror": 2.019146721840377,
+          "se_ln_ror": 0.1813858729522122,
+          "z": 11.13177497771472,
+          "p_two_sided": 8.786815496001207e-29,
+          "rr_a": 63.421182593500134,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": true
+        },
+        "interaction": {
+          "interaction_or": 8.259573696134192,
+          "or_a": 72.58733063216135,
+          "or_b": 8.788265993211622,
+          "ln_interaction": 2.111372975563505,
+          "se": 0.18332283707837205,
+          "z": 11.517239255144602,
+          "p_two_sided": 1.0801659404876333e-30,
+          "continuity_correction": 0.0,
+          "significant_growth": true
+        }
+      },
+      "mountaincar_shaped_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.03218126911101699,
+          "ror_ci": [
+            0.024802671735966494,
+            0.04175494046046329
+          ],
+          "ln_ror": -3.4363707003143533,
+          "se_ln_ror": 0.13287652327529392,
+          "z": -25.86138330241281,
+          "p_two_sided": 1.811950073960379e-147,
+          "rr_a": 0.2709774948983426,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.02201144626917572,
+          "or_a": 0.19344244470880181,
+          "or_b": 8.788265993211622,
+          "ln_interaction": -3.8161926759625815,
+          "se": 0.1356519939271626,
+          "z": -28.132226924815125,
+          "p_two_sided": 3.9540627216759016e-174,
+          "continuity_correction": 0.0,
+          "significant_growth": false
+        }
+      },
+      "pendulum_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.03050001144295439,
+          "ror_ci": [
+            0.02342150075881247,
+            0.03971780918736972
+          ],
+          "ln_ror": -3.490028220190009,
+          "se_ln_ror": 0.13473340558092545,
+          "z": -25.90321386995432,
+          "p_two_sided": 6.1270053866711275e-148,
+          "rr_a": 0.25682071973827697,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.01976435099600988,
+          "or_a": 0.17369437373613186,
+          "or_b": 8.788265993211622,
+          "ln_interaction": -3.923875418795376,
+          "se": 0.14113460542344516,
+          "z": -27.80236219899861,
+          "p_two_sided": 4.0616609650393685e-170,
+          "continuity_correction": 0.0,
+          "significant_growth": false
+        }
+      },
+      "pendulum_sparse_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.24518496830151396,
+          "ror_ci": [
+            0.18815038193192332,
+            0.3195086189235879
+          ],
+          "ln_ror": -1.405742380626668,
+          "se_ln_ror": 0.13508990648471583,
+          "z": -10.405976413831588,
+          "p_two_sided": 2.3285651375118755e-25,
+          "rr_a": 2.064542832909245,
+          "rr_b": 8.420348307692306,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.24882966779570406,
+          "or_a": 2.1867813075911315,
+          "or_b": 8.788265993211622,
+          "ln_interaction": -1.3909866816741947,
+          "se": 0.1377432466166804,
+          "z": -10.098402033060179,
+          "p_two_sided": 5.614964834814019e-24,
+          "continuity_correction": 0.0,
+          "significant_growth": false
+        }
+      }
+    },
+    "solved": {
+      "acrobot_vs_cartpole": {
+        "ror": {
+          "ror_point": 12.682833000769284,
+          "ror_ci": [
+            0.7661926324136579,
+            209.9397020024583
+          ],
+          "ln_ror": 2.540249346827532,
+          "se_ln_ror": 1.431950296778675,
+          "z": 1.7739787145839445,
+          "p_two_sided": 0.07606667119327346,
+          "rr_a": 86.92261547690462,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 12.972239329959772,
+          "or_a": 88.45273226824055,
+          "or_b": 6.818617049714488,
+          "ln_interaction": 2.562811638009673,
+          "se": 1.4321930588238778,
+          "z": 1.7894316846600717,
+          "p_two_sided": 0.07354532037712089,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      },
+      "lunarlander_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.03783699903224742,
+          "ror_ci": [
+            0.0007367169471407039,
+            1.9432680370971123
+          ],
+          "ln_ror": -3.2744678447021958,
+          "se_ln_ror": 2.0096486398625153,
+          "z": -1.6293733042439746,
+          "p_two_sided": 0.10323401658132556,
+          "rr_a": 0.25931831771975283,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.038020098691916686,
+          "or_a": 0.2592444931725306,
+          "or_b": 6.818617049714488,
+          "ln_interaction": -3.2696403461357257,
+          "se": 2.010002608221943,
+          "z": -1.6266846285478522,
+          "p_two_sided": 0.10380409505922586,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      },
+      "mountaincar_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.042577530040899494,
+          "ror_ci": [
+            0.0016961288578549996,
+            1.0688138793159299
+          ],
+          "ln_ror": -3.156428628693444,
+          "se_ln_ror": 1.6444068175327318,
+          "z": -1.919493762151479,
+          "p_two_sided": 0.05492187497484627,
+          "rr_a": 0.2918078532987841,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.0427646911554113,
+          "or_a": 0.29159605223806195,
+          "or_b": 6.818617049714488,
+          "ln_interaction": -3.152042489876293,
+          "se": 1.645618284565773,
+          "z": -1.9154153301766565,
+          "p_two_sided": 0.05543955762383107,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      },
+      "acrobot_shaped_vs_cartpole": {
+        "ror": {
+          "ror_point": 15.800564166562935,
+          "ror_ci": [
+            8.711100172428203,
+            28.659735629246132
+          ],
+          "ln_ror": 2.76004564613994,
+          "se_ln_ror": 0.3038053538399432,
+          "z": 9.084914440296672,
+          "p_two_sided": 1.0378027447477089e-19,
+          "rr_a": 108.29018747506983,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": true
+        },
+        "interaction": {
+          "interaction_or": 16.744727862571256,
+          "or_a": 116.29211315902268,
+          "or_b": 6.944998695318616,
+          "ln_interaction": 2.8180834542521316,
+          "se": 0.30494047357098925,
+          "z": 9.24142151827573,
+          "p_two_sided": 2.4324387030853865e-20,
+          "continuity_correction": 0.0,
+          "significant_growth": true
+        }
+      },
+      "mountaincar_shaped_vs_cartpole": {
+        "ror": {
+          "ror_point": 14.248183213070838,
+          "ror_ci": [
+            4.200448611053088,
+            48.330724565711826
+          ],
+          "ln_ror": 2.6566294047670413,
+          "se_ln_ror": 0.6231941416581026,
+          "z": 4.262924227269973,
+          "p_two_sided": 2.0176895214868145e-05,
+          "rr_a": 97.65084430261936,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.0,
+          "ci_excludes_1": true,
+          "grows": true
+        },
+        "interaction": {
+          "interaction_or": 14.240531311710216,
+          "or_a": 98.90047138047137,
+          "or_b": 6.944998695318616,
+          "ln_interaction": 2.6560922165033887,
+          "se": 0.6237569049648385,
+          "z": 4.2582169357357476,
+          "p_two_sided": 2.060639313484413e-05,
+          "continuity_correction": 0.0,
+          "significant_growth": true
+        }
+      },
+      "pendulum_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.06833033100483472,
+          "ror_ci": [
+            0.0013302255417398556,
+            3.5099567620115475
+          ],
+          "ln_ror": -2.6834015259916892,
+          "se_ln_ror": 2.009733482833732,
+          "z": -1.3352026768286125,
+          "p_two_sided": 0.18181002100679405,
+          "rr_a": 0.4683063387322535,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.06867274863341073,
+          "or_a": 0.46825317468253175,
+          "or_b": 6.818617049714488,
+          "ln_interaction": -2.6784028304517387,
+          "se": 2.0099177258100513,
+          "z": -1.3325932679021824,
+          "p_two_sided": 0.18266531561262064,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      },
+      "pendulum_sparse_vs_cartpole": {
+        "ror": {
+          "ror_point": 0.6895178106905462,
+          "ror_ci": [
+            0.0134207191087946,
+            35.42543491189914
+          ],
+          "ln_ror": -0.37176275076906573,
+          "se_ln_ror": 2.0098291827395736,
+          "z": -0.1849723120560527,
+          "p_two_sided": 0.8532507525825086,
+          "rr_a": 4.725654869026195,
+          "rr_b": 6.853564615384614,
+          "continuity_correction": 0.5,
+          "ci_excludes_1": false,
+          "grows": false
+        },
+        "interaction": {
+          "interaction_or": 0.6931064412039628,
+          "or_a": 4.726027397260274,
+          "or_b": 6.818617049714488,
+          "ln_interaction": -0.36657169677579593,
+          "se": 2.0098220076599587,
+          "z": -0.18239012976208593,
+          "p_two_sided": 0.8552765712016404,
+          "continuity_correction": 0.5,
+          "significant_growth": false
+        }
+      }
+    }
+  },
+  "trend": {
+    "nonweak": {
+      "ratios": [
+        8.420348307692306,
+        84.9186,
+        1.1527694710260499,
+        20.43062200956938,
+        63.421182593500106,
+        0.2709774948983426,
+        0.25682071973827697,
+        2.064542832909245
+      ],
+      "spearman_rho": -0.523809523809524,
+      "spearman_p": 0.1827207505397148,
+      "log_rr_slope": -0.5006719625403758,
+      "log_rr_slope_se": 0.32328917234607507
+    },
+    "solved": {
+      "ratios": [
+        6.853564615384615,
+        86.44319999999999,
+        0.0,
+        0.1945773524720893,
+        108.2901874750698,
+        97.65084430261932,
+        0.0,
+        0.0
+      ],
+      "spearman_rho": -0.26837252006084666,
+      "spearman_p": 0.5204409776823382,
+      "log_rr_slope": NaN,
+      "log_rr_slope_se": NaN
+    }
+  }
+}

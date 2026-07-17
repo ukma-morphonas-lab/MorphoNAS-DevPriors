@@ -1,0 +1,137 @@
+{
+  "anchor_manifest": "reproduction/manifests/acrobot.jsonl",
+  "anchor_manifest_sha256": "5d207ebb552bcb1263697f35067300b3f13900596b451e5f908bf68d588f24aa",
+  "canonical_environment": true,
+  "completed_at": "2026-07-18 18:40:07 +0000",
+  "control_base_seed": 60000000,
+  "control_rows": 25000,
+  "elapsed_sec": 6608.528,
+  "engine_weight_channel": "saturating (v1.1 default)",
+  "experiment": "paired_reward",
+  "historical_topology_shape_matches": 4621,
+  "historical_topology_shape_mismatches": 379,
+  "immutable_config": {
+    "anchor_manifest": "reproduction/manifests/acrobot.jsonl",
+    "anchor_manifest_sha256": "5d207ebb552bcb1263697f35067300b3f13900596b451e5f908bf68d588f24aa",
+    "canonical_environment": true,
+    "control_base_seed": 60000000,
+    "control_seed_formula": "base + pair_source_id * 100 + k",
+    "engine_weight_channel": "saturating (v1.1 default)",
+    "environment_lock_sha256": "95d167df327988fc15183c6a10916e29b3e3d9fc66448f50feb0a1faffe0670e",
+    "max_retries": 100,
+    "num_random_per_source": 5,
+    "pair": "acrobot",
+    "requested_sources": 5000,
+    "requirements_sha256": "dcaddb30e1bb80334f5e10899f3ad024ceb35d2358ef742275536ca6866cacc8",
+    "rollouts": 20,
+    "runner_sha256": "35ebc86665f40b7258620efa91b46c2bba88c2172125c178edc7350544181ced",
+    "schema_version": 2,
+    "selected_source_ids": null,
+    "source_selection": "manifest order; exact committed genome JSON is the scientific input",
+    "tasks": [
+      "acrobot",
+      "acrobot_shaped"
+    ],
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "max_retries": 100,
+  "max_workers": 32,
+  "num_random_per_source": 5,
+  "pair": "acrobot",
+  "pairing_contract": {
+    "environment_observations_compared_exactly_each_step": true,
+    "graph_constructed_once": true,
+    "policy_propagated_once_per_step": true,
+    "reward_not_network_input": true,
+    "termination_compared_exactly_each_step": true
+  },
+  "requested_sources": 5000,
+  "rollouts": 20,
+  "runner_sha256": "35ebc86665f40b7258620efa91b46c2bba88c2172125c178edc7350544181ced",
+  "schema_version": 2,
+  "science_file_sha256": {
+    "controls.jsonl": "779a37a537911dd3e2f5e414a89fa927cc235a78bd6baa42167304d16cb48939",
+    "sources.jsonl": "f5e6e2a3a985d006ddc0f68a3a70b0376ee6f4239a709df5ca8f98aaa949a254"
+  },
+  "selected_source_ids": null,
+  "source_rows": 5000,
+  "source_selection": "manifest order; exact committed genome JSON is the scientific input",
+  "started_at": "2026-07-18 16:49:58 +0000",
+  "status": "complete",
+  "task_specs": {
+    "acrobot": {
+      "bounds": [
+        {
+          "high": -450.0,
+          "low": -500.0,
+          "name": "weak"
+        },
+        {
+          "high": -300.0,
+          "low": -450.0,
+          "name": "low_mid"
+        },
+        {
+          "high": -200.0,
+          "low": -300.0,
+          "name": "high_mid"
+        },
+        {
+          "high": -100.0,
+          "low": -200.0,
+          "name": "near_perfect"
+        },
+        {
+          "high": "inf",
+          "low": -100.0,
+          "name": "perfect"
+        }
+      ],
+      "note": "Gymnasium solved: reward >= -100 (perfect); non-weak >= -450."
+    },
+    "acrobot_shaped": {
+      "bounds": [
+        {
+          "high": -400.0,
+          "low": "-inf",
+          "name": "weak"
+        },
+        {
+          "high": -250.0,
+          "low": -400.0,
+          "name": "low_mid"
+        },
+        {
+          "high": 0.0,
+          "low": -250.0,
+          "name": "high_mid"
+        },
+        {
+          "high": 130.0,
+          "low": 0.0,
+          "name": "near_perfect"
+        },
+        {
+          "high": "inf",
+          "low": 130.0,
+          "name": "perfect"
+        }
+      ],
+      "note": "Shaped: -1/step + 100*(tip-height gain); dense partial-progress credit. Non-weak -400 = top decile of the 500-net pilot (10.2%). Distribution is bimodal (stuck ~-497 vs swing-up +130..+237). 2026-05-31 calibration."
+    }
+  },
+  "tasks": [
+    "acrobot",
+    "acrobot_shaped"
+  ],
+  "trajectory_assertion_failures": 0,
+  "valid_control_rows": 18490,
+  "valid_source_rows": 5000,
+  "weight_range": [
+    0.01,
+    1.0
+  ]
+}

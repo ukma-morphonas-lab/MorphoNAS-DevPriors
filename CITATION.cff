@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "MorphoNAS-DevPriors: reproducibility companion for 'Grown, not trained: what a developmental map makes likely before selection'"
+abstract: >-
+  Code, data, and analysis scripts behind the study of the functional prior that
+  un-evolved MorphoNAS development places on a recurrent network before any learning
+  or selection. The headline is a size/density-controlled Mantel-Haenszel comparison
+  against matched-random wiring, with a paired reward-axis de-confounder showing the
+  enrichment is outcome-dependent. The repository also includes exploratory full-paper
+  material: a cross-family map, an observation-axis de-confounder, a feedback-arc-set
+  recurrence ablation and a structural recurrence measure, a competence-threshold
+  robustness sweep, and structured indirect-encoding (CPPN/HyperNEAT) baselines, whose
+  mechanisms are not yet isolated.
+type: software
+authors:
+  - family-names: Medvid
+    given-names: Sergii
+    affiliation: National University of Kyiv-Mohyla Academy
+  - family-names: Glybovets
+    given-names: Mykola
+    affiliation: National University of Kyiv-Mohyla Academy
+license: MIT
+repository-code: "https://github.com/ukma-morphonas-lab/MorphoNAS-DevPriors"
+preferred-citation:
+  type: article
+  title: "Grown, not trained: what a developmental map makes likely before selection"
+  authors:
+    - family-names: Medvid
+      given-names: Sergii
+    - family-names: Glybovets
+      given-names: Mykola
+  year: 2026
+  notes: >-
+    A preprint will be posted to arXiv; its arXiv identifier and DOI will be added
+    here on posting.
+references:
+  - type: article
+    title: "MorphoNAS: Embryogenic Neural Architecture Search Through Morphogen-Guided Development"
+    authors:
+      - family-names: Glybovets
+        given-names: Mykola
+      - family-names: Medvid
+        given-names: Sergii
+    year: 2026
+    journal: "Cybernetics and Systems Analysis"
+    notes: "arXiv:2507.13785 - the canonical developmental ruleset vendored under code/MorphoNAS/"

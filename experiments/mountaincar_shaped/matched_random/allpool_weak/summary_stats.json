@@ -1,0 +1,152 @@
+{
+  "experiment": "matched_random_control",
+  "task": "mountaincar_shaped",
+  "env_name": "MountainCar-v0",
+  "engine": "vendored code/MorphoNAS (rules == MorphoNAS-work@v1, commit 72902afc)",
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_run": true
+  },
+  "config": {
+    "min_stratum": "weak",
+    "num_random_per_source": 5,
+    "rollouts": 20,
+    "weight_range": [
+      0.01,
+      1.0
+    ],
+    "max_retries": 100,
+    "seed_mode": "paired",
+    "base_seed": 9200000,
+    "n_sources": 5014,
+    "strata_provisional": false
+  },
+  "n_random_total": 25070,
+  "n_random_valid": 18579,
+  "valid_rate": 0.7410849621061029,
+  "strata": {
+    "weak": 12386,
+    "low_mid": 6149,
+    "high_mid": 17,
+    "near_perfect": 12,
+    "perfect": 15
+  },
+  "random_nonweak_count": 6193,
+  "random_solved_count": 15,
+  "morphonas": {
+    "n_total": 5014,
+    "stratum_counts": {
+      "weak": 4532,
+      "low_mid": 369,
+      "high_mid": 35,
+      "near_perfect": 14,
+      "perfect": 64
+    },
+    "nonweak_count": 482,
+    "nonweak_rate": 0.09613083366573594,
+    "solved_count": 64,
+    "solved_rate": 0.012764260071798962
+  },
+  "elapsed_sec": 1002.0799775123596,
+  "ratio_nonweak": {
+    "point": 0.2883925009972078,
+    "lo": 0.2642237191049793,
+    "hi": 0.31459022328404085,
+    "mn_rate": 0.09613083366573594,
+    "mn_ci": [
+      0.08827822619833889,
+      0.10460181330935783
+    ],
+    "rand_rate": 0.3333333333333333,
+    "rand_ci": [
+      0.32658994567016725,
+      0.340145627911322
+    ],
+    "mn_count": 482,
+    "mn_n": 5014,
+    "rand_count": 6193,
+    "rand_n": 18579
+  },
+  "ratio_solved": {
+    "point": 15.809812524930194,
+    "lo": 9.026191544368315,
+    "hi": 27.46470460433378,
+    "mn_rate": 0.012764260071798962,
+    "mn_ci": [
+      0.010008976016401435,
+      0.016265560535353198
+    ],
+    "rand_rate": 0.0008073631519457452,
+    "rand_ci": [
+      0.0004893525692983668,
+      0.0013317606816372505
+    ],
+    "mn_count": 64,
+    "mn_n": 5014,
+    "rand_count": 15,
+    "rand_n": 18579
+  },
+  "cartpole_reference": {
+    "nonweak": {
+      "point": 8.420348307692306,
+      "lo": 6.589907800593307,
+      "hi": 10.756793617668482,
+      "mn_rate": 0.04724,
+      "mn_ci": [
+        0.045414970385350445,
+        0.04913459462585333
+      ],
+      "rand_rate": 0.0056102192301053,
+      "rand_ci": [
+        0.004404439132995027,
+        0.007143730813612074
+      ],
+      "mn_count": 2362,
+      "mn_n": 50000,
+      "rand_count": 65,
+      "rand_n": 11586
+    },
+    "solved": {
+      "point": 6.853564615384615,
+      "lo": 4.646449684472097,
+      "hi": 10.095800080675511,
+      "mn_rate": 0.01538,
+      "mn_ci": [
+        0.014337991511185887,
+        0.016496468679046413
+      ],
+      "rand_rate": 0.00224408769204212,
+      "rand_ci": [
+        0.0015319410325146843,
+        0.003286197249971897
+      ],
+      "mn_count": 769,
+      "mn_n": 50000,
+      "rand_count": 26,
+      "rand_n": 11586
+    }
+  },
+  "verdict": {
+    "nonweak": {
+      "verdict": "shrinks",
+      "acrobot_ci_lo_vs_ref_point": -8.156124588587327,
+      "cis_overlap": false,
+      "reference_point": 8.420348307692306,
+      "reference_ci": [
+        6.589907800593307,
+        10.756793617668482
+      ]
+    },
+    "solved": {
+      "verdict": "grows",
+      "acrobot_ci_lo_vs_ref_point": 2.1726269289837,
+      "cis_overlap": true,
+      "reference_point": 6.853564615384615,
+      "reference_ci": [
+        4.646449684472097,
+        10.095800080675511
+      ]
+    }
+  }
+}

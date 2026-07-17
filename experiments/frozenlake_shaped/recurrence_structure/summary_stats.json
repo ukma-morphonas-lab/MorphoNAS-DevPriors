@@ -1,0 +1,30 @@
+{
+  "experiment": "recurrence_structure",
+  "task": "frozenlake_shaped",
+  "n_grown": 5000,
+  "n_random": 14781,
+  "n_strata": 2344,
+  "n_grown_competent": 553,
+  "num_random_per_source": 4,
+  "has_cycle": {
+    "grown_rate": 0.9688,
+    "random_rate": 0.9996617278939178,
+    "mh_or_grown_vs_random": 0.07932801681721506,
+    "grown_competent_rate": 0.9909584086799277
+  },
+  "largest_scc_frac": {
+    "grown_median": 0.2,
+    "random_median": 0.85,
+    "grown_competent_median": 0.55
+  },
+  "spectral_radius_binary": {
+    "grown_median": 2.7546328796551958,
+    "random_median": 2.7141837455086466,
+    "grown_competent_median": 3.528477451815857
+  },
+  "spectral_radius_weighted": {
+    "grown_median": 0.39101082743057536,
+    "random_median": 1.3766443192828535
+  },
+  "elapsed_sec": 312.9301609992981
+}

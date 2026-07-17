@@ -1,0 +1,30 @@
+{
+  "experiment": "recurrence_structure",
+  "task": "lunarlander_sparse",
+  "n_grown": 5000,
+  "n_random": 14752,
+  "n_strata": 2278,
+  "n_grown_competent": 0,
+  "num_random_per_source": 4,
+  "has_cycle": {
+    "grown_rate": 0.9646,
+    "random_rate": 0.9995254880694143,
+    "mh_or_grown_vs_random": 0.09063533012251464,
+    "grown_competent_rate": null
+  },
+  "largest_scc_frac": {
+    "grown_median": 0.2,
+    "random_median": 0.85,
+    "grown_competent_median": null
+  },
+  "spectral_radius_binary": {
+    "grown_median": 2.7320499046112,
+    "random_median": 2.70539247425456,
+    "grown_competent_median": null
+  },
+  "spectral_radius_weighted": {
+    "grown_median": 0.3876483679527911,
+    "random_median": 1.3697068567555202
+  },
+  "elapsed_sec": 309.7959129810333
+}

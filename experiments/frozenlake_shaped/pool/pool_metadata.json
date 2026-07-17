@@ -1,0 +1,130 @@
+{
+  "experiment": "pool",
+  "task": "frozenlake_shaped",
+  "env_name": "FrozenLake-v1",
+  "input_dim": 16,
+  "output_dim": 4,
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_pool": true
+  },
+  "target_valid_total": 5000,
+  "target_valid_this_shard": 5000,
+  "start_seed": 11000001,
+  "weight_channel": {
+    "mode": "saturating",
+    "alpha": 0.0,
+    "gamma": 1.0,
+    "p_inh": 0.2,
+    "dale_scale": 6.0,
+    "ln_sigma": 1.0,
+    "chemo_scale": 3.0,
+    "w_max": 3.0,
+    "chemo_tags": [
+      0,
+      1,
+      2
+    ],
+    "chemo_signs": [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    "chemo_sign_mode": "fixed",
+    "dog_s1": 1.0,
+    "dog_s2": 3.0,
+    "dog_a": 1.0,
+    "dog_b": 1.0,
+    "dog_scale": 3.0,
+    "dog_invert": false,
+    "temporal": false,
+    "temporal_rate": 0.2,
+    "base_mode": "saturating",
+    "refine": false,
+    "refine_drive": "spontaneous",
+    "refine_rule": "sign",
+    "refine_steps": 50,
+    "refine_eta": 0.05,
+    "rd_antiplateau": false,
+    "rd_secretion_cap": 1.0,
+    "sign_field_idx": 1,
+    "rd_mode": "canonical",
+    "turing_act_idx": 0,
+    "turing_inh_idx": 1,
+    "turing_D_act": 0.025,
+    "turing_D_inh": 0.5,
+    "turing_rho": 1.0,
+    "turing_rho_a": 0.01,
+    "turing_rho_h": 0.0,
+    "turing_mu_act": 1.0,
+    "turing_mu_inh": 2.0,
+    "turing_dt": 0.1,
+    "turing_H_floor": 0.001,
+    "turing_ceiling": 50.0,
+    "turing_skip_secretion": true
+  },
+  "attempts": 20320,
+  "valid_count": 5000,
+  "invalid_count": 15320,
+  "validity_rate": 0.24606299212598426,
+  "stratum_counts": {
+    "weak": 4447,
+    "low_mid": 126,
+    "high_mid": 404,
+    "near_perfect": 20,
+    "perfect": 3
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -4.0
+    ],
+    "low_mid": [
+      -4.0,
+      -3.0
+    ],
+    "high_mid": [
+      -3.0,
+      -2.0
+    ],
+    "near_perfect": [
+      -2.0,
+      -0.5
+    ],
+    "perfect": [
+      -0.5,
+      Infinity
+    ]
+  },
+  "strata_provisional": true,
+  "nonweak_count": 553,
+  "competent_fraction": 0.1106,
+  "gate_frac": 0.01,
+  "gate_pass": true,
+  "reward_summary": {
+    "mean": -5.6472,
+    "std": 0.915167831602488,
+    "median": -6.0,
+    "min": -6.0,
+    "max": 0.0,
+    "percentiles": {
+      "1": -6.0,
+      "5": -6.0,
+      "10": -6.0,
+      "25": -6.0,
+      "50": -6.0,
+      "75": -6.0,
+      "90": -4.0,
+      "95": -3.0,
+      "99": -3.0
+    }
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  },
+  "timestamp": "2026-06-15 20:30:03"
+}

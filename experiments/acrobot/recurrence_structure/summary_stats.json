@@ -1,0 +1,30 @@
+{
+  "experiment": "recurrence_structure",
+  "task": "acrobot",
+  "n_grown": 5000,
+  "n_random": 14817,
+  "n_strata": 2362,
+  "n_grown_competent": 513,
+  "num_random_per_source": 4,
+  "has_cycle": {
+    "grown_rate": 0.9626,
+    "random_rate": 0.9983127488695417,
+    "mh_or_grown_vs_random": 0.3148811563502694,
+    "grown_competent_rate": 0.9902534113060428
+  },
+  "largest_scc_frac": {
+    "grown_median": 0.2,
+    "random_median": 0.8475,
+    "grown_competent_median": 0.25
+  },
+  "spectral_radius_binary": {
+    "grown_median": 2.7374299235119404,
+    "random_median": 2.694558357231431,
+    "grown_competent_median": 3.016150146642033
+  },
+  "spectral_radius_weighted": {
+    "grown_median": 0.39327596433814105,
+    "random_median": 1.3663709288278414
+  },
+  "elapsed_sec": 309.5226843357086
+}

@@ -1,0 +1,21 @@
+{
+  "task": "acrobot_masked",
+  "n": 5000,
+  "baseline_competent": 284,
+  "baseline_rate": 0.0568,
+  "comparisons": {
+    "state_reset": {
+      "mode_competent": 284,
+      "mode_rate": 0.0568,
+      "both_competent": 283,
+      "baseline_only": 1,
+      "mode_only": 1,
+      "neither": 4715,
+      "mcnemar_exact_p": 1.0,
+      "n_paired": 5000,
+      "reward_changed_nets": 13,
+      "mean_abs_reward_delta": 0.11031999999999999,
+      "max_abs_reward_delta": 250.25
+    }
+  }
+}

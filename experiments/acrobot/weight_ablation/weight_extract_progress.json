@@ -1,0 +1,18 @@
+{
+  "phase": "complete",
+  "done": 513,
+  "total": 513,
+  "frac": 1.0,
+  "elapsed_sec": 33.54,
+  "rate_sec_per_unit": 0.06538,
+  "eta_sec": 0.0,
+  "eta_clock": "2026-05-30 21:40:08",
+  "updated_at": "2026-05-30 21:40:08",
+  "counts": {
+    "edges": 620772
+  },
+  "meta": {
+    "task": "acrobot",
+    "min_stratum": "low_mid"
+  }
+}

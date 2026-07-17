@@ -1,0 +1,30 @@
+{
+  "experiment": "recurrence_structure",
+  "task": "cartpole_masked",
+  "n_grown": 5000,
+  "n_random": 16601,
+  "n_strata": 1259,
+  "n_grown_competent": 516,
+  "num_random_per_source": 4,
+  "has_cycle": {
+    "grown_rate": 0.9638,
+    "random_rate": 0.9971688452502862,
+    "mh_or_grown_vs_random": 0.5025148838742948,
+    "grown_competent_rate": 0.9903100775193798
+  },
+  "largest_scc_frac": {
+    "grown_median": 0.3,
+    "random_median": 0.84,
+    "grown_competent_median": 0.4
+  },
+  "spectral_radius_binary": {
+    "grown_median": 2.6562172162243085,
+    "random_median": 2.5714804765894685,
+    "grown_competent_median": 3.073666718498031
+  },
+  "spectral_radius_weighted": {
+    "grown_median": 0.37830533705586566,
+    "random_median": 1.3028171915818803
+  },
+  "elapsed_sec": 57.37434649467468
+}

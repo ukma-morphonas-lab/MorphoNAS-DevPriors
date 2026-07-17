@@ -1,0 +1,27 @@
+{
+  "experiment": "acrobot_pool",
+  "env_name": "Acrobot-v1",
+  "input_dim": 6,
+  "output_dim": 3,
+  "valid_count": 5000,
+  "stratum_counts": {
+    "weak": 4487,
+    "high_mid": 74,
+    "low_mid": 71,
+    "near_perfect": 281,
+    "perfect": 87
+  },
+  "reward_summary": {
+    "mean": -467.77884000000006,
+    "std": 98.50762785822425,
+    "median": -500.0,
+    "min": -500.0,
+    "max": -75.4
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "cells": {
+    "mn_regrow__mn_keep": {
+      "x": 488,
+      "n": 513,
+      "p": 0.9512670565302144
+    },
+    "mn_regrow__uniform": {
+      "x": 358,
+      "n": 2565,
+      "p": 0.13957115009746587
+    },
+    "mn_regrow__mn_shuffle": {
+      "x": 2287,
+      "n": 2565,
+      "p": 0.8916179337231969
+    },
+    "random__mn_empirical": {
+      "x": 113,
+      "n": 2480,
+      "p": 0.045564516129032256
+    },
+    "random__uniform": {
+      "x": 0,
+      "n": 0,
+      "p": 0.0
+    }
+  },
+  "decisive_vs_floor": {
+    "point": Infinity,
+    "lo": 0.13897624864612684,
+    "hi": null,
+    "mn_rate": 0.13957115009746587,
+    "mn_ci": [
+      0.12669837837653203,
+      0.15352189615577
+    ],
+    "rand_rate": 0.0,
+    "rand_ci": [
+      0.0,
+      1.0
+    ],
+    "mn_count": 358,
+    "mn_n": 2565,
+    "rand_count": 0,
+    "rand_n": 0
+  },
+  "recovery_fraction": 0.14672131147540984,
+  "verdict": "PARTIAL (advantage is jointly topology+weights)",
+  "empirical_vs_floor": {
+    "point": Infinity,
+    "lo": 0.044938280244084756,
+    "hi": null,
+    "mn_rate": 0.045564516129032256,
+    "mn_ci": [
+      0.03803616313671433,
+      0.05449851052551723
+    ],
+    "rand_rate": 0.0,
+    "rand_ci": [
+      0.0,
+      1.0
+    ],
+    "mn_count": 113,
+    "mn_n": 2480,
+    "rand_count": 0,
+    "rand_n": 0
+  }
+}

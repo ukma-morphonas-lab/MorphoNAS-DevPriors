@@ -1,0 +1,30 @@
+{
+  "experiment": "recurrence_structure",
+  "task": "pendulum_sparse",
+  "n_grown": 5000,
+  "n_random": 14843,
+  "n_strata": 2416,
+  "n_grown_competent": 515,
+  "num_random_per_source": 4,
+  "has_cycle": {
+    "grown_rate": 0.9582,
+    "random_rate": 0.9971703833456849,
+    "mh_or_grown_vs_random": 0.3767936422281636,
+    "grown_competent_rate": 0.9805825242718447
+  },
+  "largest_scc_frac": {
+    "grown_median": 0.2,
+    "random_median": 0.8488664987405542,
+    "grown_competent_median": 0.35
+  },
+  "spectral_radius_binary": {
+    "grown_median": 2.6943674545219043,
+    "random_median": 2.694931919543741,
+    "grown_competent_median": 3.094694490960577
+  },
+  "spectral_radius_weighted": {
+    "grown_median": 0.38911978891246707,
+    "random_median": 1.3629232443611756
+  },
+  "elapsed_sec": 301.85448575019836
+}

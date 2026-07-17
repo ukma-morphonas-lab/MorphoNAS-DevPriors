@@ -1,0 +1,30 @@
+{
+  "experiment": "recurrence_structure",
+  "task": "mountaincar",
+  "n_grown": 5016,
+  "n_random": 14838,
+  "n_strata": 2322,
+  "n_grown_competent": 105,
+  "num_random_per_source": 4,
+  "has_cycle": {
+    "grown_rate": 0.9617224880382775,
+    "random_rate": 0.9952149885429303,
+    "mh_or_grown_vs_random": 0.5209350115592087,
+    "grown_competent_rate": 0.9619047619047619
+  },
+  "largest_scc_frac": {
+    "grown_median": 0.2,
+    "random_median": 0.8475,
+    "grown_competent_median": 0.25
+  },
+  "spectral_radius_binary": {
+    "grown_median": 2.6890675181805297,
+    "random_median": 2.680742819560779,
+    "grown_competent_median": 3.0184005625113093
+  },
+  "spectral_radius_weighted": {
+    "grown_median": 0.38855970548574925,
+    "random_median": 1.3581327376465684
+  },
+  "elapsed_sec": 298.40349197387695
+}

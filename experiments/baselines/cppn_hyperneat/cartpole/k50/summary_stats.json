@@ -1,0 +1,103 @@
+{
+  "experiment": "baseline_prior",
+  "arm": "cppn_hyperneat",
+  "task": "cartpole",
+  "env_name": "CartPole-v1",
+  "engine": "vendored code/MorphoNAS (canonical ruleset + per-episode reset + W[post,pre] fix d378b8e06, no plasticity)",
+  "encoding_config": {
+    "encoding": "cppn_hyperneat",
+    "cppn_hidden": 4,
+    "activations": [
+      "identity",
+      "sin",
+      "gaussian",
+      "tanh",
+      "abs"
+    ],
+    "connectivity": "recurrent",
+    "weight_mode": "uniform",
+    "ne_matched": true,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_run": true
+  },
+  "config": {
+    "min_stratum": "low_mid",
+    "num_random_per_source": 50,
+    "rollouts": 20,
+    "base_seed": 907500000,
+    "n_sources": 237,
+    "strata_provisional": false
+  },
+  "n_random_total": 11850,
+  "n_random_valid": 11700,
+  "valid_rate": 0.9873417721518988,
+  "strata": {
+    "weak": 11514,
+    "low_mid": 75,
+    "high_mid": 35,
+    "near_perfect": 25,
+    "perfect": 51
+  },
+  "random_nonweak_count": 186,
+  "random_solved_count": 51,
+  "morphonas": {
+    "n_total": 5000,
+    "stratum_counts": {
+      "weak": 4763,
+      "low_mid": 105,
+      "high_mid": 25,
+      "near_perfect": 21,
+      "perfect": 86
+    },
+    "nonweak_count": 237,
+    "nonweak_rate": 0.0474,
+    "solved_count": 86,
+    "solved_rate": 0.0172
+  },
+  "elapsed_sec": 16.018714666366577,
+  "ratio_nonweak": {
+    "point": 2.9816129032258063,
+    "lo": 2.4675866561053126,
+    "hi": 3.600740574594738,
+    "mn_rate": 0.0474,
+    "mn_ci": [
+      0.04184958432057469,
+      0.05364533948009102
+    ],
+    "rand_rate": 0.015897435897435898,
+    "rand_ci": [
+      0.013784724984659432,
+      0.018327933080905714
+    ],
+    "mn_count": 237,
+    "mn_n": 5000,
+    "rand_count": 186,
+    "rand_n": 11700
+  },
+  "ratio_solved": {
+    "point": 3.945882352941177,
+    "lo": 2.7949300744649967,
+    "hi": 5.5597819718907235,
+    "mn_rate": 0.0172,
+    "mn_ci": [
+      0.013949219247445802,
+      0.021192073750701364
+    ],
+    "rand_rate": 0.004358974358974359,
+    "rand_ci": [
+      0.0033171049868267995,
+      0.005726204356784126
+    ],
+    "mn_count": 86,
+    "mn_n": 5000,
+    "rand_count": 51,
+    "rand_n": 11700
+  }
+}

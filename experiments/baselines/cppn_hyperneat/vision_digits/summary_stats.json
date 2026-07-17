@@ -1,0 +1,63 @@
+{
+  "experiment": "baseline_prior",
+  "arm": "cppn_hyperneat",
+  "task": "vision_digits",
+  "dataset": "sklearn_digits_8x8",
+  "bar": 0.15,
+  "chance": 0.1,
+  "encoding_config": {
+    "encoding": "cppn_hyperneat",
+    "cppn_hidden": 4,
+    "ne_matched": true,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "morphonas": {
+    "n_total": 108,
+    "nonweak_count": 5,
+    "nonweak_rate": 0.046296296296296294,
+    "solved_count": 0,
+    "solved_rate": 0.0
+  },
+  "n_random_valid": 1020,
+  "random_nonweak_count": 0,
+  "random_solved_count": 0,
+  "mn": {
+    "n": 108,
+    "competent": 5,
+    "acc_mean": 0.09112654320987652
+  },
+  "cppn": {
+    "n": 1020,
+    "competent": 0,
+    "acc_mean": 0.08323333333333333,
+    "acc_max": 0.146,
+    "mean_frac_mode": 0.9971686274509803
+  },
+  "ratio_nonweak": {
+    "point": Infinity,
+    "lo": 10.143403283766014,
+    "hi": null,
+    "mn_rate": 0.046296296296296294,
+    "mn_ci": [
+      0.019934815414942943,
+      0.1038248258365625
+    ],
+    "rand_rate": 0.0,
+    "rand_ci": [
+      2.168404344971009e-19,
+      0.0037520055352309014
+    ],
+    "mn_count": 5,
+    "mn_n": 108,
+    "rand_count": 0,
+    "rand_n": 1020
+  },
+  "fisher": {
+    "odds_ratio": Infinity,
+    "p_one_sided_greater": 7.390023116781467e-06,
+    "method": "fisher_exact"
+  }
+}

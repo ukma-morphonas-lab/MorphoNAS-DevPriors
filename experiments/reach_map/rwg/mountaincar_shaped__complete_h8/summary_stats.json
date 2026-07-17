@@ -1,0 +1,98 @@
+{
+  "experiment": "E3_rwg_axis",
+  "task": "mountaincar_shaped",
+  "env_name": "MountainCar-v0",
+  "reference_arch": {
+    "topology": "complete",
+    "hidden": 8,
+    "K": 13,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "num_samples": 5000,
+  "n_valid": 5000,
+  "rollouts": 20,
+  "eval_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "base_seed": 20000000,
+  "strata": {
+    "weak": 3325,
+    "low_mid": 1675,
+    "high_mid": 0,
+    "near_perfect": 0,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -200.0
+    ],
+    "low_mid": [
+      -200.0,
+      -160.0
+    ],
+    "high_mid": [
+      -160.0,
+      -100.0
+    ],
+    "near_perfect": [
+      -100.0,
+      -50.0
+    ],
+    "perfect": [
+      -50.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": false,
+  "nonweak_count": 1675,
+  "nonweak_rate": 0.335,
+  "nonweak_ci": [
+    0.3220484122859851,
+    0.34820492935588393
+  ],
+  "solved_count": 0,
+  "solved_rate": 0.0,
+  "r_axis_inv_nonweak": 2.9850746268656714,
+  "reward_summary": {
+    "mean": -205.67453556084632,
+    "std": 21.69907613359872,
+    "median": -203.24442014098167,
+    "min": -234.84905943274498,
+    "max": -179.27059210836887,
+    "percentiles": {
+      "1": -234.3655924499035,
+      "5": -233.9248888194561,
+      "10": -233.9248888194561,
+      "25": -233.9248888194561,
+      "50": -203.24442014098167,
+      "75": -180.74379682540894,
+      "90": -180.74379682540894,
+      "95": -180.74379682540894,
+      "99": -180.02535857260227
+    }
+  },
+  "elapsed_sec": 39.1155800819397
+}

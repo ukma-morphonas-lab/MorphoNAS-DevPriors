@@ -1,0 +1,571 @@
+{
+  "canary_expected_sha256": "d497d510bceb9beb3e8318a200d55b364f4a92294733913d7f7975e7c5e3e851",
+  "configuration": {
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 20260717,
+    "pairs": [
+      "mountaincar",
+      "pendulum",
+      "acrobot"
+    ],
+    "random_requests_per_source": 5,
+    "rollouts": 20,
+    "sources_per_pair": 5000
+  },
+  "environment_lock_sha256": "95d167df327988fc15183c6a10916e29b3e3d9fc66448f50feb0a1faffe0670e",
+  "experiment": "canonical_paired_reward_campaign",
+  "pair_results": {
+    "acrobot": {
+      "path": "acrobot/paired_reward_results.json",
+      "result": {
+        "analysis_contract": {
+          "cluster_contents": "one grown row and all nested random-control requests; invalid requests remain source-linked through the observed valid-control count",
+          "paired_contrast": "same source-cluster bootstrap draw for both cells",
+          "point_estimator": "Mantel-Haenszel odds ratio over exact (N,E) strata",
+          "primary_uncertainty": "nonparametric source-cluster percentile bootstrap"
+        },
+        "analyzer_sha256": "9b2d837df692be57105630e3c5bb69a0ee5896e8f5d7e800dbb31a7598cd931a",
+        "components": {
+          "acrobot": {
+            "grown": {
+              "competent": 517,
+              "total": 5000
+            },
+            "ne_stratified_mh": {
+              "bootstrap_replicates": 20000,
+              "bootstrap_seed": 20260717,
+              "bootstrap_valid_replicates": 20000,
+              "ln_or": 2.8667631729889607,
+              "n_strata_shared": 1826,
+              "or_mh": 17.580022515281744,
+              "source_cluster_percentile_ci": [
+                14.106030892734783,
+                22.577520612440036
+              ],
+              "standard_rbg_ci": [
+                13.966458074776687,
+                22.12853036776503
+              ],
+              "standard_rbg_se_ln": 0.11740244802237758
+            },
+            "random": {
+              "competent": 131,
+              "nominal_requested": 25000,
+              "total_valid": 18490
+            },
+            "source_stratified_mh_sensitivity": 17.777462792345855,
+            "task": "acrobot",
+            "threshold": -450.0,
+            "threshold_provenance": "Gymnasium solved: reward >= -100 (perfect); non-weak >= -450."
+          },
+          "acrobot_shaped": {
+            "grown": {
+              "competent": 635,
+              "total": 5000
+            },
+            "ne_stratified_mh": {
+              "bootstrap_replicates": 20000,
+              "bootstrap_seed": 20260717,
+              "bootstrap_valid_replicates": 20000,
+              "ln_or": 2.9694566598650733,
+              "n_strata_shared": 1826,
+              "or_mh": 19.48133173047446,
+              "source_cluster_percentile_ci": [
+                15.776422322878847,
+                24.598003116375246
+              ],
+              "standard_rbg_ci": [
+                15.700426541415613,
+                24.17273728147845
+              ],
+              "standard_rbg_se_ln": 0.11008813495492006
+            },
+            "random": {
+              "competent": 149,
+              "nominal_requested": 25000,
+              "total_valid": 18490
+            },
+            "source_stratified_mh_sensitivity": 19.606079797340094,
+            "task": "acrobot_shaped",
+            "threshold": -400.0,
+            "threshold_provenance": "Shaped: -1/step + 100*(tip-height gain); dense partial-progress credit. Non-weak -400 = top decile of the 500-net pilot (10.2%). Distribution is bimodal (stuck ~-497 vs swing-up +130..+237). 2026-05-31 calibration."
+          }
+        },
+        "experiment": "paired_reward_analysis",
+        "immutable_run_config_sha256": "badfc0b91300d0b2445155b3ebbb858bc2eb5a990e65541a98d0892f96017e3a",
+        "input_files": {
+          "controls": {
+            "path": "controls.jsonl",
+            "sha256": "779a37a537911dd3e2f5e414a89fa927cc235a78bd6baa42167304d16cb48939"
+          },
+          "sources": {
+            "path": "sources.jsonl",
+            "sha256": "f5e6e2a3a985d006ddc0f68a3a70b0376ee6f4239a709df5ca8f98aaa949a254"
+          }
+        },
+        "native_acrobot_threshold_sweep": {
+          "all_source_cluster_cis_above_one": true,
+          "rows": [
+            {
+              "cutoff": -108.45,
+              "grown": {
+                "competent": 100,
+                "total": 5000
+              },
+              "ne_stratified_mh": {
+                "bootstrap_replicates": 20000,
+                "bootstrap_seed": 20260717,
+                "bootstrap_valid_replicates": 20000,
+                "ln_or": 3.6184698690470674,
+                "n_strata_shared": 1826,
+                "or_mh": 37.280480140774266,
+                "source_cluster_percentile_ci": [
+                  20.66428202479339,
+                  89.09174079153605
+                ],
+                "standard_rbg_ci": [
+                  17.89912330987342,
+                  77.6481716710679
+                ],
+                "standard_rbg_se_ln": 0.3743528658124812
+              },
+              "random": {
+                "competent": 11,
+                "total_valid": 18490
+              },
+              "source_cluster_ci_above_one": true,
+              "source_stratified_mh_sensitivity": 37.27692307692308,
+              "target_grown_rate": 0.02
+            },
+            {
+              "cutoff": -149.95,
+              "grown": {
+                "competent": 150,
+                "total": 5000
+              },
+              "ne_stratified_mh": {
+                "bootstrap_replicates": 20000,
+                "bootstrap_seed": 20260717,
+                "bootstrap_valid_replicates": 20000,
+                "ln_or": 3.15123628858788,
+                "n_strata_shared": 1826,
+                "or_mh": 23.364932532152647,
+                "source_cluster_percentile_ci": [
+                  15.54815815654325,
+                  38.54054418319048
+                ],
+                "standard_rbg_ci": [
+                  14.673113001187655,
+                  37.20547045387423
+                ],
+                "standard_rbg_se_ln": 0.2373612580439886
+              },
+              "random": {
+                "competent": 27,
+                "total_valid": 18490
+              },
+              "source_cluster_ci_above_one": true,
+              "source_stratified_mh_sensitivity": 23.358064516129037,
+              "target_grown_rate": 0.03
+            },
+            {
+              "cutoff": -162.25,
+              "grown": {
+                "competent": 250,
+                "total": 5000
+              },
+              "ne_stratified_mh": {
+                "bootstrap_replicates": 20000,
+                "bootstrap_seed": 20260717,
+                "bootstrap_valid_replicates": 20000,
+                "ln_or": 3.4336384470163726,
+                "n_strata_shared": 1826,
+                "or_mh": 30.989190403541325,
+                "source_cluster_percentile_ci": [
+                  21.8458865849491,
+                  48.35825912011974
+                ],
+                "standard_rbg_ci": [
+                  20.610985093953037,
+                  46.59311127000352
+                ],
+                "standard_rbg_se_ln": 0.2080723215225351
+              },
+              "random": {
+                "competent": 36,
+                "total_valid": 18490
+              },
+              "source_cluster_ci_above_one": true,
+              "source_stratified_mh_sensitivity": 31.217054263565895,
+              "target_grown_rate": 0.05
+            },
+            {
+              "cutoff": -259.8,
+              "grown": {
+                "competent": 400,
+                "total": 5000
+              },
+              "ne_stratified_mh": {
+                "bootstrap_replicates": 20000,
+                "bootstrap_seed": 20260717,
+                "bootstrap_valid_replicates": 20000,
+                "ln_or": 3.2365258802961177,
+                "n_strata_shared": 1826,
+                "or_mh": 25.445168452954263,
+                "source_cluster_percentile_ci": [
+                  19.626371090911263,
+                  35.04236803220451
+                ],
+                "standard_rbg_ci": [
+                  19.020087336849816,
+                  34.040674268872905
+                ],
+                "standard_rbg_se_ln": 0.1484875404049452
+              },
+              "random": {
+                "competent": 75,
+                "total_valid": 18490
+              },
+              "source_cluster_ci_above_one": true,
+              "source_stratified_mh_sensitivity": 26.083557951482483,
+              "target_grown_rate": 0.08
+            },
+            {
+              "cutoff": -492.15,
+              "grown": {
+                "competent": 600,
+                "total": 5000
+              },
+              "ne_stratified_mh": {
+                "bootstrap_replicates": 20000,
+                "bootstrap_seed": 20260717,
+                "bootstrap_valid_replicates": 20000,
+                "ln_or": 2.8783870135909693,
+                "n_strata_shared": 1826,
+                "or_mh": 17.785562160553336,
+                "source_cluster_percentile_ci": [
+                  14.469901047796167,
+                  22.47808964613386
+                ],
+                "standard_rbg_ci": [
+                  14.371763003920623,
+                  22.010258677422716
+                ],
+                "standard_rbg_se_ln": 0.10873752593513807
+              },
+              "random": {
+                "competent": 152,
+                "total_valid": 18490
+              },
+              "source_cluster_ci_above_one": true,
+              "source_stratified_mh_sensitivity": 17.959384615384618,
+              "target_grown_rate": 0.12
+            }
+          ],
+          "selection": "cutoffs targeting grown pass rates fixed at 2%, 3%, 5%, 8%, and 12% within this rerun",
+          "task": "acrobot"
+        },
+        "pair": "acrobot",
+        "paired_ratio_of_odds_ratios": {
+          "bootstrap_replicates": 20000,
+          "bootstrap_seed": 20260717,
+          "bootstrap_valid_replicates": 20000,
+          "descriptive_only": false,
+          "note": null,
+          "point": 0.9024035296201791,
+          "source_cluster_percentile_ci": [
+            0.8417946235064158,
+            0.975015519945418
+          ]
+        },
+        "pairing_audit": {
+          "historical_topology_role": "audit only; controls use freshly regrown (N,E)",
+          "historical_topology_shape_matches": 4621,
+          "historical_topology_shape_mismatches": 379,
+          "invalid_controls": 6510,
+          "invalid_sources": 0,
+          "lockstep_control_trajectories": 18490,
+          "lockstep_source_trajectories": 5000,
+          "max_valid_controls_per_source": 5,
+          "min_valid_controls_per_source": 0,
+          "requested_controls": 25000,
+          "requested_controls_per_source": 5,
+          "source_rows": 5000,
+          "sources_with_valid_controls": 3819,
+          "trajectory_assertion_failures": 0,
+          "unique_control_trajectory_hashes": 11441,
+          "unique_source_trajectory_hashes": 5000,
+          "valid_controls": 18490,
+          "valid_sources": 5000
+        },
+        "schema_version": 2,
+        "tasks": [
+          "acrobot",
+          "acrobot_shaped"
+        ]
+      },
+      "sha256": "43cbbfa979e65badb2708d1ab221f6497fb53f98289946e367979f4e6b2b5a56"
+    },
+    "mountaincar": {
+      "path": "mountaincar/paired_reward_results.json",
+      "result": {
+        "analysis_contract": {
+          "cluster_contents": "one grown row and all nested random-control requests; invalid requests remain source-linked through the observed valid-control count",
+          "paired_contrast": "same source-cluster bootstrap draw for both cells",
+          "point_estimator": "Mantel-Haenszel odds ratio over exact (N,E) strata",
+          "primary_uncertainty": "nonparametric source-cluster percentile bootstrap"
+        },
+        "analyzer_sha256": "9b2d837df692be57105630e3c5bb69a0ee5896e8f5d7e800dbb31a7598cd931a",
+        "components": {
+          "mountaincar": {
+            "grown": {
+              "competent": 105,
+              "total": 5000
+            },
+            "ne_stratified_mh": {
+              "bootstrap_replicates": 20000,
+              "bootstrap_seed": 20260717,
+              "bootstrap_valid_replicates": 20000,
+              "ln_or": 1.925686652016633,
+              "n_strata_shared": 1781,
+              "or_mh": 6.8598573839953145,
+              "source_cluster_percentile_ci": [
+                4.957287808435639,
+                9.877067933836468
+              ],
+              "standard_rbg_ci": [
+                4.929425785906638,
+                9.546272805910602
+              ],
+              "standard_rbg_se_ln": 0.16860725339811408
+            },
+            "random": {
+              "competent": 68,
+              "nominal_requested": 25000,
+              "total_valid": 18477
+            },
+            "source_stratified_mh_sensitivity": 6.988603988603989,
+            "task": "mountaincar",
+            "threshold": -198.0,
+            "threshold_provenance": "Gymnasium solved: reward >= -110 (perfect). Non-weak >= -198 = flag-escape behavioral anchor (-200 = never-reached dead floor), locked; intermediate strata bounds provisional."
+          },
+          "mountaincar_shaped": {
+            "grown": {
+              "competent": 479,
+              "total": 5000
+            },
+            "ne_stratified_mh": {
+              "bootstrap_replicates": 20000,
+              "bootstrap_seed": 20260717,
+              "bootstrap_valid_replicates": 20000,
+              "ln_or": -1.2970079494599729,
+              "n_strata_shared": 1781,
+              "or_mh": 0.273348443052353,
+              "source_cluster_percentile_ci": [
+                0.2455886154049873,
+                0.30179479580304497
+              ],
+              "standard_rbg_ci": [
+                0.2467086773061258,
+                0.3028647882799467
+              ],
+              "standard_rbg_se_ln": 0.05231684556417483
+            },
+            "random": {
+              "competent": 6199,
+              "nominal_requested": 25000,
+              "total_valid": 18477
+            },
+            "source_stratified_mh_sensitivity": 0.26917639382295366,
+            "task": "mountaincar_shaped",
+            "threshold": -200.0,
+            "threshold_provenance": "Shaped: -1/step + 100*(position progress); dense partial-progress credit. Non-weak -200 = top decile of the 500-net pilot (9.6%). 2026-05-31 calibration."
+          }
+        },
+        "experiment": "paired_reward_analysis",
+        "immutable_run_config_sha256": "dba43924870b90bebe8c2760aba52578ccca7c7c06bb41b07a51b528c38cd654",
+        "input_files": {
+          "controls": {
+            "path": "controls.jsonl",
+            "sha256": "3db52feab93d5008866280f1b4a11bc52b75737653aac87d2665e96a0fcf8b8f"
+          },
+          "sources": {
+            "path": "sources.jsonl",
+            "sha256": "53f27a58509b1afcfb1d2a9c812ed8c61765dfffe855ca8918d43ec38c8029c5"
+          }
+        },
+        "native_acrobot_threshold_sweep": null,
+        "pair": "mountaincar",
+        "paired_ratio_of_odds_ratios": {
+          "bootstrap_replicates": 20000,
+          "bootstrap_seed": 20260717,
+          "bootstrap_valid_replicates": 20000,
+          "descriptive_only": false,
+          "note": null,
+          "point": 25.09565193565592,
+          "source_cluster_percentile_ci": [
+            18.487179389078204,
+            35.78202919637867
+          ]
+        },
+        "pairing_audit": {
+          "historical_topology_role": "audit only; controls use freshly regrown (N,E)",
+          "historical_topology_shape_matches": 5000,
+          "historical_topology_shape_mismatches": 0,
+          "invalid_controls": 6523,
+          "invalid_sources": 0,
+          "lockstep_control_trajectories": 18477,
+          "lockstep_source_trajectories": 5000,
+          "max_valid_controls_per_source": 5,
+          "min_valid_controls_per_source": 0,
+          "requested_controls": 25000,
+          "requested_controls_per_source": 5,
+          "source_rows": 5000,
+          "sources_with_valid_controls": 3812,
+          "trajectory_assertion_failures": 0,
+          "unique_control_trajectory_hashes": 11122,
+          "unique_source_trajectory_hashes": 5000,
+          "valid_controls": 18477,
+          "valid_sources": 5000
+        },
+        "schema_version": 2,
+        "tasks": [
+          "mountaincar",
+          "mountaincar_shaped"
+        ]
+      },
+      "sha256": "e05de6502edca12b0f644a8fe7c2e822774c66c426928f8433cbbdfcb270e5ca"
+    },
+    "pendulum": {
+      "path": "pendulum/paired_reward_results.json",
+      "result": {
+        "analysis_contract": {
+          "cluster_contents": "one grown row and all nested random-control requests; invalid requests remain source-linked through the observed valid-control count",
+          "paired_contrast": "same source-cluster bootstrap draw for both cells",
+          "point_estimator": "Mantel-Haenszel odds ratio over exact (N,E) strata",
+          "primary_uncertainty": "nonparametric source-cluster percentile bootstrap"
+        },
+        "analyzer_sha256": "9b2d837df692be57105630e3c5bb69a0ee5896e8f5d7e800dbb31a7598cd931a",
+        "components": {
+          "pendulum": {
+            "grown": {
+              "competent": 502,
+              "total": 5000
+            },
+            "ne_stratified_mh": {
+              "bootstrap_replicates": 20000,
+              "bootstrap_seed": 20260717,
+              "bootstrap_valid_replicates": 20000,
+              "ln_or": -1.2938676656261683,
+              "n_strata_shared": 1873,
+              "or_mh": 0.2742081839577799,
+              "source_cluster_percentile_ci": [
+                0.24595711795461467,
+                0.3017188112288445
+              ],
+              "standard_rbg_ci": [
+                0.24753353228966146,
+                0.3037573433139429
+              ],
+              "standard_rbg_se_ln": 0.052216039342037356
+            },
+            "random": {
+              "competent": 6247,
+              "nominal_requested": 25000,
+              "total_valid": 18567
+            },
+            "source_stratified_mh_sensitivity": 0.26707745191252835,
+            "task": "pendulum",
+            "threshold": -1322.0,
+            "threshold_provenance": "Dense native reward -(theta^2 + 0.1*theta_dot^2 + 0.001*u^2), 200-step horizon, no termination. 500-net pilot: smooth unimodal blob (NO structured mode), mean -1444, p90 -1322, max -967. Non-weak -1322 = top decile (the LunarLander/MountainCar selectivity rule). No net reaches sustained upright; R here is bar-sensitive (companion to the bar-immune sparse cell). 2026-05-31."
+          },
+          "pendulum_sparse": {
+            "grown": {
+              "competent": 515,
+              "total": 5000
+            },
+            "ne_stratified_mh": {
+              "bootstrap_replicates": 20000,
+              "bootstrap_seed": 20260717,
+              "bootstrap_valid_replicates": 20000,
+              "ln_or": 1.252311562433245,
+              "n_strata_shared": 1873,
+              "or_mh": 3.4984204353219273,
+              "source_cluster_percentile_ci": [
+                3.0765010631822216,
+                4.042878441443533
+              ],
+              "standard_rbg_ci": [
+                3.080381285579351,
+                3.9731917602454176
+              ],
+              "standard_rbg_se_ln": 0.06492883547561885
+            },
+            "random": {
+              "competent": 709,
+              "nominal_requested": 25000,
+              "total_valid": 18567
+            },
+            "source_stratified_mh_sensitivity": 3.599094881398252,
+            "task": "pendulum_sparse",
+            "threshold": 13.0,
+            "threshold_provenance": "Sparse: +1 per step while |theta| < 0.2 rad (upright band), else 0; episode score = upright-step count in [0, 200]. 500-net pilot: median 6.6, p90 13.0, max 28.2. Non-weak 13 = top decile. Bar-immune semantic cell (spinner -> 0). No net sustains upright; structured behaviour reached is partial/transient near-upright occupancy. 2026-05-31 calibration."
+          }
+        },
+        "experiment": "paired_reward_analysis",
+        "immutable_run_config_sha256": "6690e97cd0c0565549c8e3f032e076550dcd7ff6908b121c4bc349a268d3a621",
+        "input_files": {
+          "controls": {
+            "path": "controls.jsonl",
+            "sha256": "ba8643c9617f9ba581d49970f496ea64d322717ba4f5f160d797817786b2b098"
+          },
+          "sources": {
+            "path": "sources.jsonl",
+            "sha256": "c65c15c5e7db2fda20bb8c6b6e3180495435dea30e2a78fb7998705aadf91487"
+          }
+        },
+        "native_acrobot_threshold_sweep": null,
+        "pair": "pendulum",
+        "paired_ratio_of_odds_ratios": {
+          "bootstrap_replicates": 20000,
+          "bootstrap_seed": 20260717,
+          "bootstrap_valid_replicates": 20000,
+          "descriptive_only": false,
+          "note": null,
+          "point": 12.758264121907398,
+          "source_cluster_percentile_ci": [
+            10.979094125744169,
+            15.23905238008284
+          ]
+        },
+        "pairing_audit": {
+          "historical_topology_role": "audit only; controls use freshly regrown (N,E)",
+          "historical_topology_shape_matches": 5000,
+          "historical_topology_shape_mismatches": 0,
+          "invalid_controls": 6433,
+          "invalid_sources": 0,
+          "lockstep_control_trajectories": 18567,
+          "lockstep_source_trajectories": 5000,
+          "max_valid_controls_per_source": 5,
+          "min_valid_controls_per_source": 0,
+          "requested_controls": 25000,
+          "requested_controls_per_source": 5,
+          "source_rows": 5000,
+          "sources_with_valid_controls": 3845,
+          "trajectory_assertion_failures": 0,
+          "unique_control_trajectory_hashes": 18390,
+          "unique_source_trajectory_hashes": 5000,
+          "valid_controls": 18567,
+          "valid_sources": 5000
+        },
+        "schema_version": 2,
+        "tasks": [
+          "pendulum_sparse",
+          "pendulum"
+        ]
+      },
+      "sha256": "f80d5358bb6a39d55d4edd0ba67606c181ab3b5b2b12f35179f4683d9bccbe3e"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,98 @@
+{
+  "experiment": "E3_rwg_axis",
+  "task": "lunarlander_sparse",
+  "env_name": "LunarLander-v3",
+  "reference_arch": {
+    "topology": "complete",
+    "hidden": 16,
+    "K": 28,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "num_samples": 5000,
+  "n_valid": 5000,
+  "rollouts": 20,
+  "eval_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "base_seed": 20000000,
+  "strata": {
+    "weak": 5000,
+    "low_mid": 0,
+    "high_mid": 0,
+    "near_perfect": 0,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      1.0
+    ],
+    "low_mid": [
+      1.0,
+      25.0
+    ],
+    "high_mid": [
+      25.0,
+      55.0
+    ],
+    "near_perfect": [
+      55.0,
+      95.0
+    ],
+    "perfect": [
+      95.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": true,
+  "nonweak_count": 0,
+  "nonweak_rate": 0.0,
+  "nonweak_ci": [
+    5.421010862427522e-20,
+    0.0007677019450571243
+  ],
+  "solved_count": 0,
+  "solved_rate": 0.0,
+  "r_axis_inv_nonweak": Infinity,
+  "reward_summary": {
+    "mean": -100.0,
+    "std": 0.0,
+    "median": -100.0,
+    "min": -100.0,
+    "max": -100.0,
+    "percentiles": {
+      "1": -100.0,
+      "5": -100.0,
+      "10": -100.0,
+      "25": -100.0,
+      "50": -100.0,
+      "75": -100.0,
+      "90": -100.0,
+      "95": -100.0,
+      "99": -100.0
+    }
+  },
+  "elapsed_sec": 29.162298440933228
+}

@@ -1,0 +1,78 @@
+{
+  "experiment": "pool",
+  "task": "acrobot_masked",
+  "env_name": "Acrobot-v1",
+  "input_dim": 6,
+  "output_dim": 3,
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_pool": true
+  },
+  "target_valid_total": 500,
+  "target_valid_this_shard": 500,
+  "start_seed": 5000001,
+  "attempts": 1845,
+  "valid_count": 500,
+  "invalid_count": 1345,
+  "validity_rate": 0.27100271002710025,
+  "stratum_counts": {
+    "weak": 482,
+    "low_mid": 11,
+    "high_mid": 2,
+    "near_perfect": 5,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      -480.0
+    ],
+    "low_mid": [
+      -480.0,
+      -400.0
+    ],
+    "high_mid": [
+      -400.0,
+      -300.0
+    ],
+    "near_perfect": [
+      -300.0,
+      -100.0
+    ],
+    "perfect": [
+      -100.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": true,
+  "nonweak_count": 18,
+  "competent_fraction": 0.036,
+  "gate_frac": 0.01,
+  "gate_pass": true,
+  "reward_summary": {
+    "mean": -496.183,
+    "std": 24.832878226254806,
+    "median": -500.0,
+    "min": -500.0,
+    "max": -263.2,
+    "percentiles": {
+      "1": -500.0,
+      "5": -500.0,
+      "10": -500.0,
+      "25": -500.0,
+      "50": -500.0,
+      "75": -500.0,
+      "90": -500.0,
+      "95": -494.2325000000001,
+      "99": -344.5255000000004
+    }
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  },
+  "timestamp": "2026-06-01 11:25:44"
+}

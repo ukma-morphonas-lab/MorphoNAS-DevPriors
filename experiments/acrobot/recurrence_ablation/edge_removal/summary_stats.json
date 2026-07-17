@@ -1,0 +1,20 @@
+{
+  "experiment": "recurrence_ablation",
+  "task": "acrobot",
+  "recurrence_mode": "edge_removal",
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_run": true
+  },
+  "config": {
+    "min_stratum": "weak",
+    "rollouts": 20,
+    "n_sources": 5000
+  },
+  "n_valid": 5000,
+  "competent_count": 50,
+  "competent_rate": 0.01,
+  "solved_count": 6,
+  "elapsed_sec": 1857.3001334667206
+}

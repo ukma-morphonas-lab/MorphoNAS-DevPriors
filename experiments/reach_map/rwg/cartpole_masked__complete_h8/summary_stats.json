@@ -1,0 +1,98 @@
+{
+  "experiment": "rwg_axis",
+  "task": "cartpole_masked",
+  "env_name": "CartPole-v1",
+  "reference_arch": {
+    "topology": "complete",
+    "hidden": 8,
+    "K": 14,
+    "weight_range": [
+      0.01,
+      1.0
+    ]
+  },
+  "num_samples": 5000,
+  "n_valid": 5000,
+  "rollouts": 20,
+  "eval_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "base_seed": 20000000,
+  "strata": {
+    "weak": 5000,
+    "low_mid": 0,
+    "high_mid": 0,
+    "near_perfect": 0,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      28.0
+    ],
+    "low_mid": [
+      28.0,
+      38.0
+    ],
+    "high_mid": [
+      38.0,
+      45.0
+    ],
+    "near_perfect": [
+      45.0,
+      475.0
+    ],
+    "perfect": [
+      475.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": false,
+  "nonweak_count": 0,
+  "nonweak_rate": 0.0,
+  "nonweak_ci": [
+    5.421010862427522e-20,
+    0.0007677019450571243
+  ],
+  "solved_count": 0,
+  "solved_rate": 0.0,
+  "r_axis_inv_nonweak": Infinity,
+  "reward_summary": {
+    "mean": 9.53517,
+    "std": 0.5675883817521286,
+    "median": 9.7,
+    "min": 8.8,
+    "max": 12.2,
+    "percentiles": {
+      "1": 8.9,
+      "5": 8.95,
+      "10": 8.95,
+      "25": 9.05,
+      "50": 9.7,
+      "75": 9.8,
+      "90": 10.0,
+      "95": 10.65,
+      "99": 11.65
+    }
+  },
+  "elapsed_sec": 2.9344356060028076
+}

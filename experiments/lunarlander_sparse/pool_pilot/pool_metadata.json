@@ -1,0 +1,78 @@
+{
+  "experiment": "E1_pool",
+  "task": "lunarlander_sparse",
+  "env_name": "LunarLander-v3",
+  "input_dim": 8,
+  "output_dim": 4,
+  "shard": {
+    "index": 0,
+    "num_shards": 1,
+    "is_full_pool": true
+  },
+  "target_valid_total": 500,
+  "target_valid_this_shard": 500,
+  "start_seed": 8000001,
+  "attempts": 2064,
+  "valid_count": 500,
+  "invalid_count": 1564,
+  "validity_rate": 0.24224806201550386,
+  "stratum_counts": {
+    "weak": 500,
+    "low_mid": 0,
+    "high_mid": 0,
+    "near_perfect": 0,
+    "perfect": 0
+  },
+  "stratum_bounds": {
+    "weak": [
+      -Infinity,
+      1.0
+    ],
+    "low_mid": [
+      1.0,
+      25.0
+    ],
+    "high_mid": [
+      25.0,
+      55.0
+    ],
+    "near_perfect": [
+      55.0,
+      95.0
+    ],
+    "perfect": [
+      95.0,
+      Infinity
+    ]
+  },
+  "strata_provisional": true,
+  "nonweak_count": 0,
+  "competent_fraction": 0.0,
+  "gate_frac": 0.01,
+  "gate_pass": false,
+  "reward_summary": {
+    "mean": -99.94,
+    "std": 0.7722693830523131,
+    "median": -100.0,
+    "min": -100.0,
+    "max": -90.0,
+    "percentiles": {
+      "1": -100.0,
+      "5": -100.0,
+      "10": -100.0,
+      "25": -100.0,
+      "50": -100.0,
+      "75": -100.0,
+      "90": -100.0,
+      "95": -100.0,
+      "99": -100.0
+    }
+  },
+  "genome_params": {
+    "size_x": 20,
+    "size_y": 20,
+    "max_growth_steps": 200,
+    "num_morphogens": 3
+  },
+  "timestamp": "2026-05-30 23:58:15"
+}

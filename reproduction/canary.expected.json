@@ -1,0 +1,49 @@
+{
+  "configuration": {
+    "manifest_source_ids": {
+      "acrobot": 15,
+      "mountaincar": 1,
+      "pendulum": 1
+    },
+    "random_requests_per_source": 1,
+    "rollouts": 3,
+    "sources_per_pair": 1,
+    "workers": 1
+  },
+  "environment_lock_sha256": "95d167df327988fc15183c6a10916e29b3e3d9fc66448f50feb0a1faffe0670e",
+  "pairs": {
+    "acrobot": {
+      "control_graph_sha256": "0318d0928dcf85de69dcd60417e0b6eab9384f8d03f777c7e9fc0b3a97a63651",
+      "control_trajectory_sha256": "1857db4b96657a5ad9b8d5db4cf790f62a181ea8e7a5099760c1dd83bb498e02",
+      "control_valid": true,
+      "controls_sha256": "7f0734fff4fd267f378fa556c1b226fceae20891a96a1b318f00da8cebc3c503",
+      "manifest_sha256": "5d207ebb552bcb1263697f35067300b3f13900596b451e5f908bf68d588f24aa",
+      "source_graph_sha256": "62b60fd0457ba8d291891fb8575e200b317cde5d7c12278560b3917faebd7715",
+      "source_trajectory_sha256": "f317e925d527ce24e9c9185ecd97853bf6a00460eb4efbf1dc5f22bad042d194",
+      "sources_sha256": "2e6cde290e0d9fc780cdf52b2b526a3b0aa05612126f29b3101ff737fca14632"
+    },
+    "mountaincar": {
+      "control_graph_sha256": null,
+      "control_trajectory_sha256": null,
+      "control_valid": false,
+      "controls_sha256": "b00dabb52bf3c47a4b06554677f6bc923fcb2ecfa1519706e5785f0b2cbba4f0",
+      "manifest_sha256": "777a1d359149da4279c0c0c0af7ca695b57e433622085bf8758f0177814ea5ac",
+      "source_graph_sha256": "8c80b760bef3c5d49fe439f68b52d040557bc375ddaa3ef7061f01ed08721533",
+      "source_trajectory_sha256": "9fe6c7dbddce4e91dcc5756e21e5d60d49f761e65f29a9fc25188b67401831cd",
+      "sources_sha256": "8a0d35d0cbdc3506d73dc6cd601c76bd46935e7035bc47d8020d05516d0be077"
+    },
+    "pendulum": {
+      "control_graph_sha256": "baaac54c1843e5af43b4d5bbac052c1ff623a64ae446ada5e501eeb1916ae6be",
+      "control_trajectory_sha256": "9edbe4b635b5c488eea122e7854239cf433e7efa7a4e2a0f184115ef299ec31b",
+      "control_valid": true,
+      "controls_sha256": "2e17a0416c60f4f3f2c4593b69649cc3b624467eb215d188105ce569d7fbf13b",
+      "manifest_sha256": "cf19ad3cfc155616b0ed3ce46a2024a5b0aa405dfc6c7029f28481c6660bdcac",
+      "source_graph_sha256": "26f9211f70dca0c45e919ae7d4f7e446e42ba380ad1bde1416fb350005b3555c",
+      "source_trajectory_sha256": "8729827c7eb6cec8d1bec3bd8987b323deaaffef1b9b013da4fe6860844647d6",
+      "sources_sha256": "370a09dedb2aed2f769c7ee86eee4e9f9b9666cc853f2fa62b5932f0e99eaecf"
+    }
+  },
+  "requirements_sha256": "dcaddb30e1bb80334f5e10899f3ad024ceb35d2358ef742275536ca6866cacc8",
+  "runner_sha256": "35ebc86665f40b7258620efa91b46c2bba88c2172125c178edc7350544181ced",
+  "schema_version": 1
+}
