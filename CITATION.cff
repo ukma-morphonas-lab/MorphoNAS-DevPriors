@@ -1,6 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the paper below."
+message: "If you use this code or data, please cite the abstract below and the MorphoNAS engine paper listed under references."
+type: software
 title: "MorphoNAS-DevPriors: reproducibility companion for 'Grown, not trained: what a developmental map makes likely before selection'"
+version: 0.1.1
+date-released: 2026-09-12
 abstract: >-
   Code, data, and analysis scripts behind the study of the functional prior that
   un-evolved MorphoNAS development places on a recurrent network before any learning
@@ -11,27 +14,44 @@ abstract: >-
   recurrence ablation and a structural recurrence measure, a competence-threshold
   robustness sweep, and structured indirect-encoding (CPPN/HyperNEAT) baselines, whose
   mechanisms are not yet isolated.
-type: software
 authors:
   - family-names: Medvid
     given-names: Sergii
+    orcid: "https://orcid.org/0009-0002-5601-4471"
     affiliation: National University of Kyiv-Mohyla Academy
+    email: s.medvid@ukma.edu.ua
   - family-names: Glybovets
     given-names: Mykola
+    orcid: "https://orcid.org/0009-0005-6942-8026"
     affiliation: National University of Kyiv-Mohyla Academy
+    email: glib@ukma.edu.ua
 license: MIT
 repository-code: "https://github.com/ukma-morphonas-lab/MorphoNAS-DevPriors"
+keywords:
+  - MorphoNAS
+  - developmental encoding
+  - indirect encoding
+  - neuroevolution
+  - recurrent neural networks
+  - reservoir computing
+  - artificial life
+  - reproducibility
 preferred-citation:
-  type: article
+  type: conference-paper
   title: "Grown, not trained: what a developmental map makes likely before selection"
   authors:
     - family-names: Medvid
       given-names: Sergii
+      orcid: "https://orcid.org/0009-0002-5601-4471"
     - family-names: Glybovets
       given-names: Mykola
+      orcid: "https://orcid.org/0009-0005-6942-8026"
   year: 2026
+  conference:
+    name: "ALIFE 2026: The 2026 Conference on Artificial Life"
   notes: >-
-    A preprint will be posted to arXiv; its arXiv identifier and DOI will be added
+    Two-page non-archival late-breaking abstract, presented as a poster. The full
+    paper that extends it is in preparation; its arXiv identifier will be added
     here on posting.
 references:
   - type: article
@@ -39,8 +59,30 @@ references:
     authors:
       - family-names: Glybovets
         given-names: Mykola
+        orcid: "https://orcid.org/0009-0005-6942-8026"
       - family-names: Medvid
         given-names: Sergii
+        orcid: "https://orcid.org/0009-0002-5601-4471"
     year: 2026
     journal: "Cybernetics and Systems Analysis"
-    notes: "arXiv:2507.13785 - the canonical developmental ruleset vendored under code/MorphoNAS/"
+    volume: 62
+    issue: 2
+    doi: 10.1007/s10559-026-00858-3
+    notes: "arXiv:2507.13785; the canonical developmental ruleset vendored under code/MorphoNAS/"
+  - type: conference-paper
+    title: "Activity-Dependent Plasticity in Morphogenetically-Grown Recurrent Networks"
+    authors:
+      - family-names: Medvid
+        given-names: Sergii
+        orcid: "https://orcid.org/0009-0002-5601-4471"
+      - family-names: Valenia
+        given-names: Andrii
+        orcid: "https://orcid.org/0009-0004-4559-5500"
+      - family-names: Glybovets
+        given-names: Mykola
+        orcid: "https://orcid.org/0009-0005-6942-8026"
+    year: 2026
+    conference:
+      name: "GECCO '26: Genetic and Evolutionary Computation Conference Companion"
+    doi: 10.1145/3795101.3814700
+    notes: "arXiv:2604.03386; the source of the two evaluation fixes carried by the vendored engine"

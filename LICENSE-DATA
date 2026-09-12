@@ -1,0 +1,9 @@
+The experiment data in this repository (result files, committed genome pools and
+phenotypes under experiments/, and the committed paired-campaign rows under
+reproduction/) is released under the Creative Commons Attribution 4.0
+International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Sergii Medvid and Mykola Glybovets, MorphoNAS-DevPriors,
+https://github.com/ukma-morphonas-lab/MorphoNAS-DevPriors
+
+The code (code/ and scripts/) is released under the MIT License in LICENSE.

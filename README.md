@@ -81,4 +81,4 @@ If you use this code or data, please cite the paper (see [`CITATION.cff`](CITATI
 
 ## License
 
-Code is released under the MIT License ([`LICENSE`](LICENSE)). The experiment data under `experiments/` is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Code is released under the MIT License ([`LICENSE`](LICENSE)); the vendored engine under `code/MorphoNAS/` is covered by the same licence, its authors being the copyright holders named there. The experiment data under `experiments/` and the committed campaign rows under `reproduction/` are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) ([`LICENSE-DATA`](LICENSE-DATA)).
