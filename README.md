@@ -77,7 +77,14 @@ Evaluation uses **no plasticity** (propagators built with no edge hook). Growth 
 
 ## Citation
 
-If you use this code or data, please cite the paper (see [`CITATION.cff`](CITATION.cff)) and the MorphoNAS engine (arXiv:2507.13785).
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22729009.svg)](https://doi.org/10.5281/zenodo.22729009)
+
+If you use this code or data, please cite the paper (see [`CITATION.cff`](CITATION.cff)) and the MorphoNAS engine (arXiv:2507.13785). Cite the version you used: each release is archived on Zenodo with its own DOI, and the concept DOI above always resolves to the latest one.
+
+| version | archive | what it is |
+| --- | --- | --- |
+| [`v0.1`](https://github.com/ukma-morphonas-lab/MorphoNAS-DevPriors/tree/v0.1) | (not archived; superseded by v0.1.1) | the state the ALIFE 2026 late-breaking abstract links |
+| [`v0.1.1`](https://github.com/ukma-morphonas-lab/MorphoNAS-DevPriors/tree/v0.1.1) | [10.5281/zenodo.22729010](https://doi.org/10.5281/zenodo.22729010) | metadata-only re-tag of v0.1: evidence byte-identical, licence and citation files completed |
 
 ## License
 

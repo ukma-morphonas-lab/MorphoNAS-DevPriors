@@ -27,6 +27,14 @@ authors:
     email: glib@ukma.edu.ua
 license: MIT
 repository-code: "https://github.com/ukma-morphonas-lab/MorphoNAS-DevPriors"
+doi: 10.5281/zenodo.22729009
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22729009
+    description: "Concept DOI of the repository; resolves to the latest archived version."
+  - type: doi
+    value: 10.5281/zenodo.22729010
+    description: "Version DOI of v0.1.1, the late-breaking abstract's companion (evidence identical to v0.1)."
 keywords:
   - MorphoNAS
   - developmental encoding
